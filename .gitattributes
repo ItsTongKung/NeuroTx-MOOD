@@ -1,0 +1,7 @@
+# Keep release text files byte-identical across Windows, Linux, GitHub, and Zenodo.
+* text=auto eol=lf
+
+# Preserve byte-level checksums for distributed data snapshots on every platform.
+data/*.csv -text
+data/*.tab -text
+data/*.tsv -text

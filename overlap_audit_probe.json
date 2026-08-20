@@ -1,0 +1,167 @@
+{
+  "description": "Per-seed audit for the zero-overlap external B3DB test folds used in the revised BBB benchmark. Exact canonical-SMILES overlaps are removed unconditionally, and the scaffold-derived partition is regenerated only if the filtered test fold would lose class diversity.",
+  "seed_metrics": [
+    {
+      "bbb_neg_after_overlap_filter": 531.0,
+      "bbb_neg_before_overlap_filter": 563.0,
+      "bbb_pos_after_overlap_filter": 407.0,
+      "bbb_pos_before_overlap_filter": 671.0,
+      "exact_overlap_removed": 296.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 42.0,
+      "test_size_after_overlap_filter": 938.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 504.0,
+      "bbb_neg_before_overlap_filter": 536.0,
+      "bbb_pos_after_overlap_filter": 423.0,
+      "bbb_pos_before_overlap_filter": 698.0,
+      "exact_overlap_removed": 307.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 43.0,
+      "test_size_after_overlap_filter": 927.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 494.0,
+      "bbb_neg_before_overlap_filter": 526.0,
+      "bbb_pos_after_overlap_filter": 436.0,
+      "bbb_pos_before_overlap_filter": 708.0,
+      "exact_overlap_removed": 304.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 44.0,
+      "test_size_after_overlap_filter": 930.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 503.0,
+      "bbb_neg_before_overlap_filter": 533.0,
+      "bbb_pos_after_overlap_filter": 423.0,
+      "bbb_pos_before_overlap_filter": 701.0,
+      "exact_overlap_removed": 308.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 45.0,
+      "test_size_after_overlap_filter": 926.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 495.0,
+      "bbb_neg_before_overlap_filter": 530.0,
+      "bbb_pos_after_overlap_filter": 432.0,
+      "bbb_pos_before_overlap_filter": 704.0,
+      "exact_overlap_removed": 307.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 46.0,
+      "test_size_after_overlap_filter": 927.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 513.0,
+      "bbb_neg_before_overlap_filter": 546.0,
+      "bbb_pos_after_overlap_filter": 428.0,
+      "bbb_pos_before_overlap_filter": 688.0,
+      "exact_overlap_removed": 293.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 47.0,
+      "test_size_after_overlap_filter": 941.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 519.0,
+      "bbb_neg_before_overlap_filter": 555.0,
+      "bbb_pos_after_overlap_filter": 416.0,
+      "bbb_pos_before_overlap_filter": 679.0,
+      "exact_overlap_removed": 299.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 48.0,
+      "test_size_after_overlap_filter": 935.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 522.0,
+      "bbb_neg_before_overlap_filter": 553.0,
+      "bbb_pos_after_overlap_filter": 417.0,
+      "bbb_pos_before_overlap_filter": 681.0,
+      "exact_overlap_removed": 295.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 49.0,
+      "test_size_after_overlap_filter": 939.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 516.0,
+      "bbb_neg_before_overlap_filter": 551.0,
+      "bbb_pos_after_overlap_filter": 422.0,
+      "bbb_pos_before_overlap_filter": 683.0,
+      "exact_overlap_removed": 296.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 50.0,
+      "test_size_after_overlap_filter": 938.0,
+      "test_size_before_overlap_filter": 1234.0
+    },
+    {
+      "bbb_neg_after_overlap_filter": 516.0,
+      "bbb_neg_before_overlap_filter": 550.0,
+      "bbb_pos_after_overlap_filter": 414.0,
+      "bbb_pos_before_overlap_filter": 684.0,
+      "exact_overlap_removed": 304.0,
+      "partition_regeneration_attempts": 0.0,
+      "remaining_exact_overlap_count": 0.0,
+      "seed": 51.0,
+      "test_size_after_overlap_filter": 930.0,
+      "test_size_before_overlap_filter": 1234.0
+    }
+  ],
+  "summary": {
+    "bbb_neg_after_overlap_filter": {
+      "mean": 511.3,
+      "std": 12.000462954032695
+    },
+    "bbb_neg_before_overlap_filter": {
+      "mean": 544.3,
+      "std": 12.275087689209302
+    },
+    "bbb_pos_after_overlap_filter": {
+      "mean": 421.8,
+      "std": 8.715248450592533
+    },
+    "bbb_pos_before_overlap_filter": {
+      "mean": 689.7,
+      "std": 12.275087689209302
+    },
+    "exact_overlap_removed": {
+      "mean": 300.9,
+      "std": 5.70477382938574
+    },
+    "partition_regeneration_attempts": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "remaining_exact_overlap_count": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "seed": {
+      "mean": 46.5,
+      "std": 3.0276503540974917
+    },
+    "test_size_after_overlap_filter": {
+      "mean": 933.1,
+      "std": 5.70477382938574
+    },
+    "test_size_before_overlap_filter": {
+      "mean": 1234.0,
+      "std": 0.0
+    }
+  }
+}

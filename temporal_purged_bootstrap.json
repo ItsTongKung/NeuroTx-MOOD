@@ -1,0 +1,33 @@
+{
+  "bootstrap_seed": 20260812,
+  "intervals": {
+    "auroc": {
+      "ci95_high": 0.5787352087360854,
+      "ci95_low": 0.4055153132020616,
+      "n_bootstrap": 2000,
+      "point_estimate": 0.4923714036617262
+    },
+    "coverage_90": {
+      "ci95_high": 0.9732062780269053,
+      "ci95_low": 0.9147982062780269,
+      "n_bootstrap": 2000,
+      "point_estimate": 0.9461883408071748
+    },
+    "mean_set_size": {
+      "ci95_high": 1.84304932735426,
+      "ci95_low": 1.7354260089686098,
+      "n_bootstrap": 2000,
+      "point_estimate": 1.789237668161435
+    },
+    "success_rate": {
+      "ci95_high": 0.2062780269058296,
+      "ci95_low": 0.11210762331838565,
+      "n_bootstrap": 2000,
+      "point_estimate": 0.15695067264573992
+    }
+  },
+  "n_calibration": 219,
+  "n_test": 223,
+  "n_train": 693,
+  "split": "chronological 60/20/20 with prior-period canonical-compound purging"
+}

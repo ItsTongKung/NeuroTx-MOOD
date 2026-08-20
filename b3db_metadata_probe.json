@@ -1,0 +1,235 @@
+{
+  "description": "Fixed-score B3DB scaffold-split calibration probe using complete source metadata from the pinned official B3DB snapshot.",
+  "generated_from": "b3db_metadata_probe.py",
+  "official_b3db_sha256": "47a160aea1551423ead2aab70b301fb1646aea03cf151fd614eb37c78fa55b82",
+  "n_rows": 6167,
+  "n_contexts": 11,
+  "n_contexts_rich": 15,
+  "context_counts_top10": {
+    "B|ref4p|logbb_0": 1556,
+    "C|ref1|logbb_0": 1528,
+    "B|ref2_3|logbb_0": 1122,
+    "C|ref2_3|logbb_0": 654,
+    "A|ref4p|logbb_1": 572,
+    "B|ref1|logbb_0": 293,
+    "A|ref1|logbb_1": 197,
+    "A|ref2_3|logbb_1": 173,
+    "D|ref2_3|logbb_0": 37,
+    "C|ref4p|logbb_0": 21
+  },
+  "context_counts_top10_rich": {
+    "C|ref1|logbb_0": 1528,
+    "B|ref2_3|logbb_0": 1122,
+    "B|ref4_6|logbb_0": 888,
+    "C|ref2_3|logbb_0": 654,
+    "B|ref7_10|logbb_0": 548,
+    "A|ref11p|logbb_1": 314,
+    "B|ref1|logbb_0": 293,
+    "A|ref1|logbb_1": 197,
+    "A|ref2_3|logbb_1": 173,
+    "A|ref4_6|logbb_1": 158
+  },
+  "global_cp": {
+    "auprc": {
+      "mean": 0.8531224165748259,
+      "std": 0.006584769494199292
+    },
+    "auroc": {
+      "mean": 0.8129599030950422,
+      "std": 0.006477400913605813
+    },
+    "brier_score": {
+      "mean": 0.19087284330991322,
+      "std": 0.0017524867480669419
+    },
+    "coverage_90": {
+      "mean": 0.7751215559157212,
+      "std": 0.015556202447692454
+    },
+    "ece": {
+      "mean": 0.10220730329136973,
+      "std": 0.0071080819388601064
+    },
+    "mean_set_size": {
+      "mean": 1.1821717990275526,
+      "std": 0.0265624322773107
+    },
+    "success_rate": {
+      "mean": 0.5929497568881686,
+      "std": 0.012074584510179166
+    }
+  },
+  "metadata_context_cp": {
+    "auprc": {
+      "mean": 0.8531224165748259,
+      "std": 0.006584769494199292
+    },
+    "auroc": {
+      "mean": 0.8129599030950422,
+      "std": 0.006477400913605813
+    },
+    "brier_score": {
+      "mean": 0.19087284330991322,
+      "std": 0.0017524867480669419
+    },
+    "coverage_90": {
+      "mean": 0.8118314424635333,
+      "std": 0.010362355205825935
+    },
+    "ece": {
+      "mean": 0.10220730329136973,
+      "std": 0.0071080819388601064
+    },
+    "mean_set_size": {
+      "mean": 1.2565640194489467,
+      "std": 0.02116023157300415
+    },
+    "mondrian_groups": {
+      "mean": 8.0,
+      "std": 0.0
+    },
+    "success_rate": {
+      "mean": 0.5552674230145868,
+      "std": 0.012073073657371017
+    }
+  },
+  "metadata_context_rich_cp": {
+    "auprc": {
+      "mean": 0.8531224165748259,
+      "std": 0.006584769494199292
+    },
+    "auroc": {
+      "mean": 0.8129599030950422,
+      "std": 0.006477400913605813
+    },
+    "brier_score": {
+      "mean": 0.19087284330991322,
+      "std": 0.0017524867480669419
+    },
+    "coverage_90": {
+      "mean": 0.8157212317666126,
+      "std": 0.010144595507767817
+    },
+    "ece": {
+      "mean": 0.10220730329136973,
+      "std": 0.0071080819388601064
+    },
+    "mean_set_size": {
+      "mean": 1.2649918962722855,
+      "std": 0.020451100195297358
+    },
+    "mondrian_groups": {
+      "mean": 10.4,
+      "std": 0.5163977794943222
+    },
+    "success_rate": {
+      "mean": 0.5507293354943273,
+      "std": 0.011429799711816629
+    }
+  },
+  "chemistry_proxy_cp": {
+    "auprc": {
+      "mean": 0.8531224165748259,
+      "std": 0.006584769494199292
+    },
+    "auroc": {
+      "mean": 0.8129599030950422,
+      "std": 0.006477400913605813
+    },
+    "brier_score": {
+      "mean": 0.19087284330991322,
+      "std": 0.0017524867480669419
+    },
+    "coverage_90": {
+      "mean": 0.7840356564019448,
+      "std": 0.01566371353963154
+    },
+    "ece": {
+      "mean": 0.10220730329136973,
+      "std": 0.0071080819388601064
+    },
+    "mean_set_size": {
+      "mean": 1.202836304700162,
+      "std": 0.02591518120287007
+    },
+    "mondrian_groups": {
+      "mean": 7.0,
+      "std": 0.0
+    },
+    "success_rate": {
+      "mean": 0.5811993517017828,
+      "std": 0.012018556464018905
+    }
+  },
+  "paired_effects_vs_global_cp": {
+    "chemistry_proxy_cp": {
+      "coverage_90": {
+        "mean_difference": 0.008914100486223675,
+        "ci95_low": 0.0010505889918953851,
+        "ci95_high": 0.016777611980551964,
+        "sd_difference": 0.010992431090964762,
+        "n_pairs": 10
+      },
+      "mean_set_size": {
+        "mean_difference": 0.020664505672609378,
+        "ci95_low": 0.006556347062128947,
+        "ci95_high": 0.03477266428308981,
+        "sd_difference": 0.019721845826506886,
+        "n_pairs": 10
+      },
+      "success_rate": {
+        "mean_difference": -0.011750405186385704,
+        "ci95_low": -0.01864351591998141,
+        "ci95_high": -0.004857294452789998,
+        "sd_difference": 0.009635904366146399,
+        "n_pairs": 10
+      }
+    },
+    "metadata_context_cp": {
+      "coverage_90": {
+        "mean_difference": 0.036709886547812,
+        "ci95_low": 0.02469180334701077,
+        "ci95_high": 0.04872796974861324,
+        "sd_difference": 0.016800121869927218,
+        "n_pairs": 10
+      },
+      "mean_set_size": {
+        "mean_difference": 0.07439222042139385,
+        "ci95_low": 0.0543128552911425,
+        "ci95_high": 0.0944715855516452,
+        "sd_difference": 0.028069016965742075,
+        "n_pairs": 10
+      },
+      "success_rate": {
+        "mean_difference": -0.037682333873581816,
+        "ci95_low": -0.046492039039575994,
+        "ci95_high": -0.028872628707587635,
+        "sd_difference": 0.01231511863863302,
+        "n_pairs": 10
+      }
+    },
+    "metadata_context_rich_cp": {
+      "coverage_90": {
+        "mean_difference": 0.040599675850891415,
+        "ci95_low": 0.027968385325464834,
+        "ci95_high": 0.053230966376317995,
+        "sd_difference": 0.01765732660158951,
+        "n_pairs": 10
+      },
+      "mean_set_size": {
+        "mean_difference": 0.08282009724473254,
+        "ci95_low": 0.06057402776259918,
+        "ci95_high": 0.10506616672686589,
+        "sd_difference": 0.03109786079711883,
+        "n_pairs": 10
+      },
+      "success_rate": {
+        "mean_difference": -0.042220421393841155,
+        "ci95_low": -0.05246899692664983,
+        "ci95_high": -0.03197184586103248,
+        "sd_difference": 0.01432652071612061,
+        "n_pairs": 10
+      }
+    }
+  }
+}

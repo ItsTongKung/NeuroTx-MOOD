@@ -1,0 +1,1387 @@
+{
+  "context_definition_ablation": {
+    "description": "Calibration-only BBB context-definition ablation with a fixed RF point predictor. Proxy descriptor bins are compared against descriptor k-means clusters and a deterministic hash control.",
+    "seed_metrics": [
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.667656176093383,
+        "ood_external_auroc": 0.7333759028674283,
+        "ood_external_brier_score": 0.2531110632626436,
+        "ood_external_coverage_90": 0.6012793176972282,
+        "ood_external_ece": 0.21344406760773668,
+        "ood_external_mean_set_size": 1.0511727078891258,
+        "ood_external_success_rate": 0.5501066098081023,
+        "scheme": "global",
+        "seed": 42.0
+      },
+      {
+        "calibration_fallback_fraction": 0.07920792079207921,
+        "external_fallback_fraction": 0.1417910447761194,
+        "mondrian_groups": 5.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.667656176093383,
+        "ood_external_auroc": 0.7333759028674283,
+        "ood_external_brier_score": 0.2531110632626436,
+        "ood_external_coverage_90": 0.6257995735607675,
+        "ood_external_ece": 0.21344406760773668,
+        "ood_external_mean_set_size": 1.0948827292110874,
+        "ood_external_success_rate": 0.5309168443496801,
+        "scheme": "proxy_basic",
+        "seed": 42.0
+      },
+      {
+        "calibration_fallback_fraction": 0.594059405940594,
+        "external_fallback_fraction": 0.570362473347548,
+        "mondrian_groups": 4.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.667656176093383,
+        "ood_external_auroc": 0.7333759028674283,
+        "ood_external_brier_score": 0.2531110632626436,
+        "ood_external_coverage_90": 0.6236673773987207,
+        "ood_external_ece": 0.21344406760773668,
+        "ood_external_mean_set_size": 1.0927505330490406,
+        "ood_external_success_rate": 0.5309168443496801,
+        "scheme": "proxy_rich",
+        "seed": 42.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 4.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.667656176093383,
+        "ood_external_auroc": 0.7333759028674283,
+        "ood_external_brier_score": 0.2531110632626436,
+        "ood_external_coverage_90": 0.6151385927505331,
+        "ood_external_ece": 0.21344406760773668,
+        "ood_external_mean_set_size": 1.095948827292111,
+        "ood_external_success_rate": 0.5191897654584222,
+        "scheme": "descriptor_kmeans5",
+        "seed": 42.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.667656176093383,
+        "ood_external_auroc": 0.7333759028674283,
+        "ood_external_brier_score": 0.2531110632626436,
+        "ood_external_coverage_90": 0.6449893390191898,
+        "ood_external_ece": 0.21344406760773668,
+        "ood_external_mean_set_size": 1.1215351812366738,
+        "ood_external_success_rate": 0.523454157782516,
+        "scheme": "hash_control5",
+        "seed": 42.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.7068714114722958,
+        "ood_external_auroc": 0.7488625276745844,
+        "ood_external_brier_score": 0.25377838836959077,
+        "ood_external_coverage_90": 0.5943905070118662,
+        "ood_external_ece": 0.21881545304580377,
+        "ood_external_mean_set_size": 1.0474649406688241,
+        "ood_external_success_rate": 0.5469255663430421,
+        "scheme": "global",
+        "seed": 43.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0827250608272506,
+        "external_fallback_fraction": 0.1262135922330097,
+        "mondrian_groups": 5.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7068714114722958,
+        "ood_external_auroc": 0.7488625276745844,
+        "ood_external_brier_score": 0.25377838836959077,
+        "ood_external_coverage_90": 0.6332254584681769,
+        "ood_external_ece": 0.21881545304580377,
+        "ood_external_mean_set_size": 1.1154261057173678,
+        "ood_external_success_rate": 0.517799352750809,
+        "scheme": "proxy_basic",
+        "seed": 43.0
+      },
+      {
+        "calibration_fallback_fraction": 0.5085158150851582,
+        "external_fallback_fraction": 0.5512405609492989,
+        "mondrian_groups": 5.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7068714114722958,
+        "ood_external_auroc": 0.7488625276745844,
+        "ood_external_brier_score": 0.25377838836959077,
+        "ood_external_coverage_90": 0.622437971952535,
+        "ood_external_ece": 0.21881545304580377,
+        "ood_external_mean_set_size": 1.1078748651564185,
+        "ood_external_success_rate": 0.5145631067961165,
+        "scheme": "proxy_rich",
+        "seed": 43.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 4.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7068714114722958,
+        "ood_external_auroc": 0.7488625276745844,
+        "ood_external_brier_score": 0.25377838836959077,
+        "ood_external_coverage_90": 0.622437971952535,
+        "ood_external_ece": 0.21881545304580377,
+        "ood_external_mean_set_size": 1.099244875943905,
+        "ood_external_success_rate": 0.52319309600863,
+        "scheme": "descriptor_kmeans5",
+        "seed": 43.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7068714114722958,
+        "ood_external_auroc": 0.7488625276745844,
+        "ood_external_brier_score": 0.25377838836959077,
+        "ood_external_coverage_90": 0.6332254584681769,
+        "ood_external_ece": 0.21881545304580377,
+        "ood_external_mean_set_size": 1.1272923408845739,
+        "ood_external_success_rate": 0.505933117583603,
+        "scheme": "hash_control5",
+        "seed": 43.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.6896155014423113,
+        "ood_external_auroc": 0.7255877873936782,
+        "ood_external_brier_score": 0.2514382442730095,
+        "ood_external_coverage_90": 0.6537634408602151,
+        "ood_external_ece": 0.1984661115740539,
+        "ood_external_mean_set_size": 1.156989247311828,
+        "ood_external_success_rate": 0.4967741935483871,
+        "scheme": "global",
+        "seed": 44.0
+      },
+      {
+        "calibration_fallback_fraction": 0.09582309582309582,
+        "external_fallback_fraction": 0.12688172043010754,
+        "mondrian_groups": 5.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6896155014423113,
+        "ood_external_auroc": 0.7255877873936782,
+        "ood_external_brier_score": 0.2514382442730095,
+        "ood_external_coverage_90": 0.6279569892473118,
+        "ood_external_ece": 0.1984661115740539,
+        "ood_external_mean_set_size": 1.0903225806451613,
+        "ood_external_success_rate": 0.5376344086021505,
+        "scheme": "proxy_basic",
+        "seed": 44.0
+      },
+      {
+        "calibration_fallback_fraction": 0.5823095823095823,
+        "external_fallback_fraction": 0.5720430107526882,
+        "mondrian_groups": 5.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6896155014423113,
+        "ood_external_auroc": 0.7255877873936782,
+        "ood_external_brier_score": 0.2514382442730095,
+        "ood_external_coverage_90": 0.610752688172043,
+        "ood_external_ece": 0.1984661115740539,
+        "ood_external_mean_set_size": 1.0591397849462365,
+        "ood_external_success_rate": 0.5516129032258065,
+        "scheme": "proxy_rich",
+        "seed": 44.0
+      },
+      {
+        "calibration_fallback_fraction": 0.004914004914004914,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 4.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6896155014423113,
+        "ood_external_auroc": 0.7255877873936782,
+        "ood_external_brier_score": 0.2514382442730095,
+        "ood_external_coverage_90": 0.7215053763440861,
+        "ood_external_ece": 0.1984661115740539,
+        "ood_external_mean_set_size": 1.2741935483870968,
+        "ood_external_success_rate": 0.44731182795698926,
+        "scheme": "descriptor_kmeans5",
+        "seed": 44.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6896155014423113,
+        "ood_external_auroc": 0.7255877873936782,
+        "ood_external_brier_score": 0.2514382442730095,
+        "ood_external_coverage_90": 0.6827956989247311,
+        "ood_external_ece": 0.1984661115740539,
+        "ood_external_mean_set_size": 1.1946236559139785,
+        "ood_external_success_rate": 0.4881720430107527,
+        "scheme": "hash_control5",
+        "seed": 44.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.7220938809894837,
+        "ood_external_auroc": 0.7672898777547481,
+        "ood_external_brier_score": 0.23708642246811892,
+        "ood_external_coverage_90": 0.6155507559395248,
+        "ood_external_ece": 0.19415517629722887,
+        "ood_external_mean_set_size": 1.0,
+        "ood_external_success_rate": 0.6155507559395248,
+        "scheme": "global",
+        "seed": 45.0
+      },
+      {
+        "calibration_fallback_fraction": 0.05405405405405406,
+        "external_fallback_fraction": 0.14146868250539957,
+        "mondrian_groups": 5.0,
+        "n_external_test": 926.0,
+        "ood_external_auprc": 0.7220938809894837,
+        "ood_external_auroc": 0.7672898777547481,
+        "ood_external_brier_score": 0.23708642246811892,
+        "ood_external_coverage_90": 0.6576673866090713,
+        "ood_external_ece": 0.19415517629722887,
+        "ood_external_mean_set_size": 1.0723542116630669,
+        "ood_external_success_rate": 0.5853131749460043,
+        "scheme": "proxy_basic",
+        "seed": 45.0
+      },
+      {
+        "calibration_fallback_fraction": 0.7199017199017199,
+        "external_fallback_fraction": 0.6252699784017278,
+        "mondrian_groups": 2.0,
+        "n_external_test": 926.0,
+        "ood_external_auprc": 0.7220938809894837,
+        "ood_external_auroc": 0.7672898777547481,
+        "ood_external_brier_score": 0.23708642246811892,
+        "ood_external_coverage_90": 0.6997840172786177,
+        "ood_external_ece": 0.19415517629722887,
+        "ood_external_mean_set_size": 1.1987041036717063,
+        "ood_external_success_rate": 0.5010799136069114,
+        "scheme": "proxy_rich",
+        "seed": 45.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.047516198704103674,
+        "mondrian_groups": 4.0,
+        "n_external_test": 926.0,
+        "ood_external_auprc": 0.7220938809894837,
+        "ood_external_auroc": 0.7672898777547481,
+        "ood_external_brier_score": 0.23708642246811892,
+        "ood_external_coverage_90": 0.6403887688984882,
+        "ood_external_ece": 0.19415517629722887,
+        "ood_external_mean_set_size": 1.0874730021598271,
+        "ood_external_success_rate": 0.5529157667386609,
+        "scheme": "descriptor_kmeans5",
+        "seed": 45.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 926.0,
+        "ood_external_auprc": 0.7220938809894837,
+        "ood_external_auroc": 0.7672898777547481,
+        "ood_external_brier_score": 0.23708642246811892,
+        "ood_external_coverage_90": 0.7105831533477321,
+        "ood_external_ece": 0.19415517629722887,
+        "ood_external_mean_set_size": 1.1825053995680346,
+        "ood_external_success_rate": 0.5280777537796977,
+        "scheme": "hash_control5",
+        "seed": 45.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.7239562145422033,
+        "ood_external_auroc": 0.756979517396184,
+        "ood_external_brier_score": 0.2406899386581377,
+        "ood_external_coverage_90": 0.6364617044228694,
+        "ood_external_ece": 0.19343465931013065,
+        "ood_external_mean_set_size": 1.087378640776699,
+        "ood_external_success_rate": 0.5490830636461704,
+        "scheme": "global",
+        "seed": 46.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0847457627118644,
+        "external_fallback_fraction": 0.12513484358144553,
+        "mondrian_groups": 5.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7239562145422033,
+        "ood_external_auroc": 0.756979517396184,
+        "ood_external_brier_score": 0.2406899386581377,
+        "ood_external_coverage_90": 0.6817691477885652,
+        "ood_external_ece": 0.19343465931013065,
+        "ood_external_mean_set_size": 1.1736785329018338,
+        "ood_external_success_rate": 0.5080906148867314,
+        "scheme": "proxy_basic",
+        "seed": 46.0
+      },
+      {
+        "calibration_fallback_fraction": 0.585956416464891,
+        "external_fallback_fraction": 0.5997842502696872,
+        "mondrian_groups": 4.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7239562145422033,
+        "ood_external_auroc": 0.756979517396184,
+        "ood_external_brier_score": 0.2406899386581377,
+        "ood_external_coverage_90": 0.7098166127292341,
+        "ood_external_ece": 0.19343465931013065,
+        "ood_external_mean_set_size": 1.2394822006472492,
+        "ood_external_success_rate": 0.4703344120819849,
+        "scheme": "proxy_rich",
+        "seed": 46.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.04962243797195254,
+        "mondrian_groups": 4.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7239562145422033,
+        "ood_external_auroc": 0.756979517396184,
+        "ood_external_brier_score": 0.2406899386581377,
+        "ood_external_coverage_90": 0.6903991370010788,
+        "ood_external_ece": 0.19343465931013065,
+        "ood_external_mean_set_size": 1.2017259978425028,
+        "ood_external_success_rate": 0.4886731391585761,
+        "scheme": "descriptor_kmeans5",
+        "seed": 46.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 927.0,
+        "ood_external_auprc": 0.7239562145422033,
+        "ood_external_auroc": 0.756979517396184,
+        "ood_external_brier_score": 0.2406899386581377,
+        "ood_external_coverage_90": 0.6828478964401294,
+        "ood_external_ece": 0.19343465931013065,
+        "ood_external_mean_set_size": 1.180151024811219,
+        "ood_external_success_rate": 0.5026968716289104,
+        "scheme": "hash_control5",
+        "seed": 46.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.7021863943936049,
+        "ood_external_auroc": 0.7491733617532929,
+        "ood_external_brier_score": 0.25076669340390934,
+        "ood_external_coverage_90": 0.594048884165781,
+        "ood_external_ece": 0.20937988688818682,
+        "ood_external_mean_set_size": 1.0393198724760893,
+        "ood_external_success_rate": 0.5547290116896918,
+        "scheme": "global",
+        "seed": 47.0
+      },
+      {
+        "calibration_fallback_fraction": 0.07881773399014778,
+        "external_fallback_fraction": 0.13496280552603612,
+        "mondrian_groups": 5.0,
+        "n_external_test": 941.0,
+        "ood_external_auprc": 0.7021863943936049,
+        "ood_external_auroc": 0.7491733617532929,
+        "ood_external_brier_score": 0.25076669340390934,
+        "ood_external_coverage_90": 0.6397449521785334,
+        "ood_external_ece": 0.20937988688818682,
+        "ood_external_mean_set_size": 1.1190223166843782,
+        "ood_external_success_rate": 0.5207226354941552,
+        "scheme": "proxy_basic",
+        "seed": 47.0
+      },
+      {
+        "calibration_fallback_fraction": 0.4482758620689655,
+        "external_fallback_fraction": 0.5409139213602551,
+        "mondrian_groups": 6.0,
+        "n_external_test": 941.0,
+        "ood_external_auprc": 0.7021863943936049,
+        "ood_external_auroc": 0.7491733617532929,
+        "ood_external_brier_score": 0.25076669340390934,
+        "ood_external_coverage_90": 0.61211477151966,
+        "ood_external_ece": 0.20937988688818682,
+        "ood_external_mean_set_size": 1.0765143464399576,
+        "ood_external_success_rate": 0.5356004250797024,
+        "scheme": "proxy_rich",
+        "seed": 47.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0049261083743842365,
+        "external_fallback_fraction": 0.048884165781083955,
+        "mondrian_groups": 4.0,
+        "n_external_test": 941.0,
+        "ood_external_auprc": 0.7021863943936049,
+        "ood_external_auroc": 0.7491733617532929,
+        "ood_external_brier_score": 0.25076669340390934,
+        "ood_external_coverage_90": 0.6344314558979809,
+        "ood_external_ece": 0.20937988688818682,
+        "ood_external_mean_set_size": 1.1052072263549415,
+        "ood_external_success_rate": 0.5292242295430393,
+        "scheme": "descriptor_kmeans5",
+        "seed": 47.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 941.0,
+        "ood_external_auprc": 0.7021863943936049,
+        "ood_external_auroc": 0.7491733617532929,
+        "ood_external_brier_score": 0.25076669340390934,
+        "ood_external_coverage_90": 0.6291179596174282,
+        "ood_external_ece": 0.20937988688818682,
+        "ood_external_mean_set_size": 1.110520722635494,
+        "ood_external_success_rate": 0.5185972369819342,
+        "scheme": "hash_control5",
+        "seed": 47.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.6976246002821064,
+        "ood_external_auroc": 0.7476725767007559,
+        "ood_external_brier_score": 0.25539354871541103,
+        "ood_external_coverage_90": 0.5946524064171123,
+        "ood_external_ece": 0.22273775493534625,
+        "ood_external_mean_set_size": 1.0588235294117647,
+        "ood_external_success_rate": 0.5358288770053476,
+        "scheme": "global",
+        "seed": 48.0
+      },
+      {
+        "calibration_fallback_fraction": 0.06965174129353234,
+        "external_fallback_fraction": 0.12727272727272726,
+        "mondrian_groups": 5.0,
+        "n_external_test": 935.0,
+        "ood_external_auprc": 0.6976246002821064,
+        "ood_external_auroc": 0.7476725767007559,
+        "ood_external_brier_score": 0.25539354871541103,
+        "ood_external_coverage_90": 0.6192513368983957,
+        "ood_external_ece": 0.22273775493534625,
+        "ood_external_mean_set_size": 1.0919786096256685,
+        "ood_external_success_rate": 0.5272727272727272,
+        "scheme": "proxy_basic",
+        "seed": 48.0
+      },
+      {
+        "calibration_fallback_fraction": 0.5970149253731343,
+        "external_fallback_fraction": 0.532620320855615,
+        "mondrian_groups": 4.0,
+        "n_external_test": 935.0,
+        "ood_external_auprc": 0.6976246002821064,
+        "ood_external_auroc": 0.7476725767007559,
+        "ood_external_brier_score": 0.25539354871541103,
+        "ood_external_coverage_90": 0.6021390374331551,
+        "ood_external_ece": 0.22273775493534625,
+        "ood_external_mean_set_size": 1.0641711229946524,
+        "ood_external_success_rate": 0.5379679144385027,
+        "scheme": "proxy_rich",
+        "seed": 48.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 4.0,
+        "n_external_test": 935.0,
+        "ood_external_auprc": 0.6976246002821064,
+        "ood_external_auroc": 0.7476725767007559,
+        "ood_external_brier_score": 0.25539354871541103,
+        "ood_external_coverage_90": 0.611764705882353,
+        "ood_external_ece": 0.22273775493534625,
+        "ood_external_mean_set_size": 1.1197860962566846,
+        "ood_external_success_rate": 0.4919786096256685,
+        "scheme": "descriptor_kmeans5",
+        "seed": 48.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 935.0,
+        "ood_external_auprc": 0.6976246002821064,
+        "ood_external_auroc": 0.7476725767007559,
+        "ood_external_brier_score": 0.25539354871541103,
+        "ood_external_coverage_90": 0.6288770053475936,
+        "ood_external_ece": 0.22273775493534625,
+        "ood_external_mean_set_size": 1.132620320855615,
+        "ood_external_success_rate": 0.49625668449197863,
+        "scheme": "hash_control5",
+        "seed": 48.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.7019818662179971,
+        "ood_external_auroc": 0.7534799746409769,
+        "ood_external_brier_score": 0.2506490924670844,
+        "ood_external_coverage_90": 0.6325878594249201,
+        "ood_external_ece": 0.21468293856238432,
+        "ood_external_mean_set_size": 1.1182108626198084,
+        "ood_external_success_rate": 0.5143769968051118,
+        "scheme": "global",
+        "seed": 49.0
+      },
+      {
+        "calibration_fallback_fraction": 0.07524271844660194,
+        "external_fallback_fraction": 0.15122470713525027,
+        "mondrian_groups": 5.0,
+        "n_external_test": 939.0,
+        "ood_external_auprc": 0.7019818662179971,
+        "ood_external_auroc": 0.7534799746409769,
+        "ood_external_brier_score": 0.2506490924670844,
+        "ood_external_coverage_90": 0.711395101171459,
+        "ood_external_ece": 0.21468293856238432,
+        "ood_external_mean_set_size": 1.2673056443024495,
+        "ood_external_success_rate": 0.4440894568690096,
+        "scheme": "proxy_basic",
+        "seed": 49.0
+      },
+      {
+        "calibration_fallback_fraction": 0.5946601941747572,
+        "external_fallback_fraction": 0.5654952076677316,
+        "mondrian_groups": 4.0,
+        "n_external_test": 939.0,
+        "ood_external_auprc": 0.7019818662179971,
+        "ood_external_auroc": 0.7534799746409769,
+        "ood_external_brier_score": 0.2506490924670844,
+        "ood_external_coverage_90": 0.6570820021299254,
+        "ood_external_ece": 0.21468293856238432,
+        "ood_external_mean_set_size": 1.1799787007454738,
+        "ood_external_success_rate": 0.47710330138445156,
+        "scheme": "proxy_rich",
+        "seed": 49.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.046858359957401494,
+        "mondrian_groups": 4.0,
+        "n_external_test": 939.0,
+        "ood_external_auprc": 0.7019818662179971,
+        "ood_external_auroc": 0.7534799746409769,
+        "ood_external_brier_score": 0.2506490924670844,
+        "ood_external_coverage_90": 0.6198083067092651,
+        "ood_external_ece": 0.21468293856238432,
+        "ood_external_mean_set_size": 1.1182108626198084,
+        "ood_external_success_rate": 0.5015974440894568,
+        "scheme": "descriptor_kmeans5",
+        "seed": 49.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 939.0,
+        "ood_external_auprc": 0.7019818662179971,
+        "ood_external_auroc": 0.7534799746409769,
+        "ood_external_brier_score": 0.2506490924670844,
+        "ood_external_coverage_90": 0.6869009584664537,
+        "ood_external_ece": 0.21468293856238432,
+        "ood_external_mean_set_size": 1.215122470713525,
+        "ood_external_success_rate": 0.47177848775292863,
+        "scheme": "hash_control5",
+        "seed": 49.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.6935145557793698,
+        "ood_external_auroc": 0.7389277710422867,
+        "ood_external_brier_score": 0.2492503213772111,
+        "ood_external_coverage_90": 0.6247334754797441,
+        "ood_external_ece": 0.20317487335200368,
+        "ood_external_mean_set_size": 1.0778251599147122,
+        "ood_external_success_rate": 0.5469083155650319,
+        "scheme": "global",
+        "seed": 50.0
+      },
+      {
+        "calibration_fallback_fraction": 0.08415841584158416,
+        "external_fallback_fraction": 0.13859275053304904,
+        "mondrian_groups": 5.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.6935145557793698,
+        "ood_external_auroc": 0.7389277710422867,
+        "ood_external_brier_score": 0.2492503213772111,
+        "ood_external_coverage_90": 0.6289978678038379,
+        "ood_external_ece": 0.20317487335200368,
+        "ood_external_mean_set_size": 1.0820895522388059,
+        "ood_external_success_rate": 0.5469083155650319,
+        "scheme": "proxy_basic",
+        "seed": 50.0
+      },
+      {
+        "calibration_fallback_fraction": 0.6584158415841584,
+        "external_fallback_fraction": 0.6087420042643923,
+        "mondrian_groups": 3.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.6935145557793698,
+        "ood_external_auroc": 0.7389277710422867,
+        "ood_external_brier_score": 0.2492503213772111,
+        "ood_external_coverage_90": 0.673773987206823,
+        "ood_external_ece": 0.20317487335200368,
+        "ood_external_mean_set_size": 1.171641791044776,
+        "ood_external_success_rate": 0.502132196162047,
+        "scheme": "proxy_rich",
+        "seed": 50.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.05543710021321962,
+        "mondrian_groups": 4.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.6935145557793698,
+        "ood_external_auroc": 0.7389277710422867,
+        "ood_external_brier_score": 0.2492503213772111,
+        "ood_external_coverage_90": 0.6247334754797441,
+        "ood_external_ece": 0.20317487335200368,
+        "ood_external_mean_set_size": 1.0874200426439233,
+        "ood_external_success_rate": 0.5373134328358209,
+        "scheme": "descriptor_kmeans5",
+        "seed": 50.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 938.0,
+        "ood_external_auprc": 0.6935145557793698,
+        "ood_external_auroc": 0.7389277710422867,
+        "ood_external_brier_score": 0.2492503213772111,
+        "ood_external_coverage_90": 0.6791044776119403,
+        "ood_external_ece": 0.20317487335200368,
+        "ood_external_mean_set_size": 1.1844349680170576,
+        "ood_external_success_rate": 0.4946695095948827,
+        "scheme": "hash_control5",
+        "seed": 50.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 0.0,
+        "ood_external_auprc": 0.6788620251902218,
+        "ood_external_auroc": 0.7362913343070068,
+        "ood_external_brier_score": 0.26021390236675435,
+        "ood_external_coverage_90": 0.5473118279569893,
+        "ood_external_ece": 0.22257302971352286,
+        "ood_external_mean_set_size": 1.0043010752688173,
+        "ood_external_success_rate": 0.543010752688172,
+        "scheme": "global",
+        "seed": 51.0
+      },
+      {
+        "calibration_fallback_fraction": 0.05378973105134474,
+        "external_fallback_fraction": 0.13333333333333333,
+        "mondrian_groups": 5.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6788620251902218,
+        "ood_external_auroc": 0.7362913343070068,
+        "ood_external_brier_score": 0.26021390236675435,
+        "ood_external_coverage_90": 0.5731182795698925,
+        "ood_external_ece": 0.22257302971352286,
+        "ood_external_mean_set_size": 1.0440860215053764,
+        "ood_external_success_rate": 0.5290322580645161,
+        "scheme": "proxy_basic",
+        "seed": 51.0
+      },
+      {
+        "calibration_fallback_fraction": 0.58679706601467,
+        "external_fallback_fraction": 0.5838709677419355,
+        "mondrian_groups": 4.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6788620251902218,
+        "ood_external_auroc": 0.7362913343070068,
+        "ood_external_brier_score": 0.26021390236675435,
+        "ood_external_coverage_90": 0.603225806451613,
+        "ood_external_ece": 0.22257302971352286,
+        "ood_external_mean_set_size": 1.096774193548387,
+        "ood_external_success_rate": 0.5064516129032258,
+        "scheme": "proxy_rich",
+        "seed": 51.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 4.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6788620251902218,
+        "ood_external_auroc": 0.7362913343070068,
+        "ood_external_brier_score": 0.26021390236675435,
+        "ood_external_coverage_90": 0.5817204301075268,
+        "ood_external_ece": 0.22257302971352286,
+        "ood_external_mean_set_size": 1.0838709677419356,
+        "ood_external_success_rate": 0.4978494623655914,
+        "scheme": "descriptor_kmeans5",
+        "seed": 51.0
+      },
+      {
+        "calibration_fallback_fraction": 0.0,
+        "external_fallback_fraction": 0.0,
+        "mondrian_groups": 5.0,
+        "n_external_test": 930.0,
+        "ood_external_auprc": 0.6788620251902218,
+        "ood_external_auroc": 0.7362913343070068,
+        "ood_external_brier_score": 0.26021390236675435,
+        "ood_external_coverage_90": 0.5838709677419355,
+        "ood_external_ece": 0.22257302971352286,
+        "ood_external_mean_set_size": 1.0612903225806452,
+        "ood_external_success_rate": 0.5225806451612903,
+        "scheme": "hash_control5",
+        "seed": 51.0
+      }
+    ],
+    "summary_by_scheme": {
+      "descriptor_kmeans5": {
+        "calibration_fallback_fraction": {
+          "mean": 0.000984011328838915,
+          "std": 0.002074479989946869
+        },
+        "external_fallback_fraction": {
+          "mean": 0.02483182626277613,
+          "std": 0.026273389952111918
+        },
+        "mondrian_groups": {
+          "mean": 4.0,
+          "std": 0.0
+        },
+        "n_external_test": {
+          "mean": 933.1,
+          "std": 5.70477382938574
+        },
+        "ood_external_auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "ood_external_auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "ood_external_brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "ood_external_coverage_90": {
+          "mean": 0.6362328221023591,
+          "std": 0.040597576096489923
+        },
+        "ood_external_ece": {
+          "mean": 0.20908639512863977,
+          "std": 0.01119997466577977
+        },
+        "ood_external_mean_set_size": {
+          "mean": 1.1273081447242737,
+          "std": 0.06198276864390011
+        },
+        "ood_external_success_rate": {
+          "mean": 0.5089246773780854,
+          "std": 0.030059117608716504
+        },
+        "seed": {
+          "mean": 46.5,
+          "std": 3.0276503540974917
+        }
+      },
+      "global": {
+        "calibration_fallback_fraction": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "external_fallback_fraction": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mondrian_groups": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "ood_external_auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "ood_external_auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "ood_external_brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "ood_external_coverage_90": {
+          "mean": 0.6094780179376251,
+          "std": 0.030019130380430435
+        },
+        "ood_external_ece": {
+          "mean": 0.20908639512863977,
+          "std": 0.01119997466577977
+        },
+        "ood_external_mean_set_size": {
+          "mean": 1.0641486036337668,
+          "std": 0.04837022335742843
+        },
+        "ood_external_success_rate": {
+          "mean": 0.5453294143038583,
+          "std": 0.030682313716902825
+        },
+        "seed": {
+          "mean": 46.5,
+          "std": 3.0276503540974917
+        }
+      },
+      "hash_control5": {
+        "calibration_fallback_fraction": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "external_fallback_fraction": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mondrian_groups": {
+          "mean": 5.0,
+          "std": 0.0
+        },
+        "n_external_test": {
+          "mean": 933.1,
+          "std": 5.70477382938574
+        },
+        "ood_external_auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "ood_external_auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "ood_external_brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "ood_external_coverage_90": {
+          "mean": 0.656231291498531,
+          "std": 0.038307387511416824
+        },
+        "ood_external_ece": {
+          "mean": 0.20908639512863977,
+          "std": 0.01119997466577977
+        },
+        "ood_external_mean_set_size": {
+          "mean": 1.1510096407216817,
+          "std": 0.04764384369888863
+        },
+        "ood_external_success_rate": {
+          "mean": 0.5052216507768493,
+          "std": 0.018082526941637738
+        },
+        "seed": {
+          "mean": 46.5,
+          "std": 3.0276503540974917
+        }
+      },
+      "proxy_basic": {
+        "calibration_fallback_fraction": {
+          "mean": 0.0758216234831555,
+          "std": 0.013395423507956083
+        },
+        "external_fallback_fraction": {
+          "mean": 0.13468762073264778,
+          "std": 0.008602673700989081
+        },
+        "mondrian_groups": {
+          "mean": 5.0,
+          "std": 0.0
+        },
+        "n_external_test": {
+          "mean": 933.1,
+          "std": 5.70477382938574
+        },
+        "ood_external_auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "ood_external_auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "ood_external_brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "ood_external_coverage_90": {
+          "mean": 0.6398926093296011,
+          "std": 0.037373947466055345
+        },
+        "ood_external_ece": {
+          "mean": 0.20908639512863977,
+          "std": 0.01119997466577977
+        },
+        "ood_external_mean_set_size": {
+          "mean": 1.1151146304495199,
+          "std": 0.06336019247263237
+        },
+        "ood_external_success_rate": {
+          "mean": 0.5247779788800816,
+          "std": 0.03533303555520868
+        },
+        "seed": {
+          "mean": 46.5,
+          "std": 3.0276503540974917
+        }
+      },
+      "proxy_rich": {
+        "calibration_fallback_fraction": {
+          "mean": 0.5875906828917631,
+          "std": 0.07333007343500167
+        },
+        "external_fallback_fraction": {
+          "mean": 0.5750342695610879,
+          "std": 0.029817100589221126
+        },
+        "mondrian_groups": {
+          "mean": 4.1,
+          "std": 1.1005049346146119
+        },
+        "n_external_test": {
+          "mean": 933.1,
+          "std": 5.70477382938574
+        },
+        "ood_external_auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "ood_external_auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "ood_external_brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "ood_external_coverage_90": {
+          "mean": 0.6414794272272327,
+          "std": 0.040624352984551734
+        },
+        "ood_external_ece": {
+          "mean": 0.20908639512863977,
+          "std": 0.01119997466577977
+        },
+        "ood_external_mean_set_size": {
+          "mean": 1.1287031642243897,
+          "std": 0.06334914051470232
+        },
+        "ood_external_success_rate": {
+          "mean": 0.512776263002843,
+          "std": 0.026583396342492523
+        },
+        "seed": {
+          "mean": 46.5,
+          "std": 3.0276503540974917
+        }
+      }
+    }
+  },
+  "deep_ensemble_bbb_baseline": {
+    "description": "Three-member deep ensemble of independently seeded MLPs trained on descriptor-plus-fingerprint features, with probabilities averaged before global split conformal calibration.",
+    "seed_metrics": [
+      {
+        "auprc": 0.9678787802140009,
+        "auroc": 0.9122677080527875,
+        "brier_score": 0.08711664753986356,
+        "cal_member_std_mean": 0.05395011231303215,
+        "coverage_90": 0.9219512195121952,
+        "ece": 0.048862014377273916,
+        "mean_set_size": 1.0804878048780489,
+        "n_calibration": 404.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 938.0,
+        "n_test": 410.0,
+        "n_train": 1225.0,
+        "ood_external_auprc": 0.5809372660662588,
+        "ood_external_auroc": 0.6866234493353138,
+        "ood_external_brier_score": 0.34328987194001437,
+        "ood_external_coverage_90": 0.6151385927505331,
+        "ood_external_ece": 0.3348019312226537,
+        "ood_external_mean_set_size": 1.1236673773987207,
+        "ood_external_member_std_mean": 0.08156932145357132,
+        "ood_external_success_rate": 0.4914712153518124,
+        "seed": 42.0,
+        "success_rate": 0.8414634146341463,
+        "test_member_std_mean": 0.058918293565511703
+      },
+      {
+        "auprc": 0.9556266092238227,
+        "auroc": 0.8913079279338626,
+        "brier_score": 0.09416652372154038,
+        "cal_member_std_mean": 0.05069194361567497,
+        "coverage_90": 0.8902439024390244,
+        "ece": 0.05247320943091792,
+        "mean_set_size": 1.0219512195121951,
+        "n_calibration": 411.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 927.0,
+        "n_test": 410.0,
+        "n_train": 1218.0,
+        "ood_external_auprc": 0.6854285555155782,
+        "ood_external_auroc": 0.7185142969717438,
+        "ood_external_brier_score": 0.33146053577258794,
+        "ood_external_coverage_90": 0.5738942826321467,
+        "ood_external_ece": 0.32470208469541195,
+        "ood_external_mean_set_size": 1.0571736785329018,
+        "ood_external_member_std_mean": 0.07334098219871521,
+        "ood_external_success_rate": 0.5167206040992449,
+        "seed": 43.0,
+        "success_rate": 0.8682926829268293,
+        "test_member_std_mean": 0.048349957913160324
+      },
+      {
+        "auprc": 0.9680397678310411,
+        "auroc": 0.9104416991030632,
+        "brier_score": 0.09254066647617412,
+        "cal_member_std_mean": 0.07842262089252472,
+        "coverage_90": 0.8990147783251231,
+        "ece": 0.0295083384405767,
+        "mean_set_size": 1.0467980295566504,
+        "n_calibration": 407.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 930.0,
+        "n_test": 406.0,
+        "n_train": 1226.0,
+        "ood_external_auprc": 0.6826613812400859,
+        "ood_external_auroc": 0.7003862868179623,
+        "ood_external_brier_score": 0.3236652165268324,
+        "ood_external_coverage_90": 0.6075268817204301,
+        "ood_external_ece": 0.30894433480064054,
+        "ood_external_mean_set_size": 1.0989247311827957,
+        "ood_external_member_std_mean": 0.10804610699415207,
+        "ood_external_success_rate": 0.5086021505376344,
+        "seed": 44.0,
+        "success_rate": 0.8522167487684729,
+        "test_member_std_mean": 0.07632571458816528
+      },
+      {
+        "auprc": 0.9669496954901309,
+        "auroc": 0.9153399451911783,
+        "brier_score": 0.08754214364489248,
+        "cal_member_std_mean": 0.04774676635861397,
+        "coverage_90": 0.9007263922518159,
+        "ece": 0.05736027476188926,
+        "mean_set_size": 1.0314769975786926,
+        "n_calibration": 407.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 926.0,
+        "n_test": 413.0,
+        "n_train": 1219.0,
+        "ood_external_auprc": 0.6917942262806591,
+        "ood_external_auroc": 0.736740314613501,
+        "ood_external_brier_score": 0.32850589403236863,
+        "ood_external_coverage_90": 0.6220302375809935,
+        "ood_external_ece": 0.3222264406747374,
+        "ood_external_mean_set_size": 1.0853131749460043,
+        "ood_external_member_std_mean": 0.09120632708072662,
+        "ood_external_success_rate": 0.5367170626349892,
+        "seed": 45.0,
+        "success_rate": 0.8692493946731235,
+        "test_member_std_mean": 0.04913576692342758
+      },
+      {
+        "auprc": 0.9745707815844293,
+        "auroc": 0.9291640845555327,
+        "brier_score": 0.07982060460833616,
+        "cal_member_std_mean": 0.058231137692928314,
+        "coverage_90": 0.9205955334987593,
+        "ece": 0.04969208431487934,
+        "mean_set_size": 1.0496277915632755,
+        "n_calibration": 413.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 927.0,
+        "n_test": 403.0,
+        "n_train": 1223.0,
+        "ood_external_auprc": 0.6714796376537644,
+        "ood_external_auroc": 0.7091166292555181,
+        "ood_external_brier_score": 0.34045891170353254,
+        "ood_external_coverage_90": 0.6256742179072277,
+        "ood_external_ece": 0.33417052549572246,
+        "ood_external_mean_set_size": 1.099244875943905,
+        "ood_external_member_std_mean": 0.08997746556997299,
+        "ood_external_success_rate": 0.5264293419633226,
+        "seed": 46.0,
+        "success_rate": 0.8709677419354839,
+        "test_member_std_mean": 0.05297030508518219
+      },
+      {
+        "auprc": 0.9659420485042056,
+        "auroc": 0.9085618880892173,
+        "brier_score": 0.09081574258705388,
+        "cal_member_std_mean": 0.054745644330978394,
+        "coverage_90": 0.8939759036144578,
+        "ece": 0.0460562326552638,
+        "mean_set_size": 1.0240963855421688,
+        "n_calibration": 406.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 941.0,
+        "n_test": 415.0,
+        "n_train": 1218.0,
+        "ood_external_auprc": 0.6542503637049077,
+        "ood_external_auroc": 0.694423949281303,
+        "ood_external_brier_score": 0.3562803746394576,
+        "ood_external_coverage_90": 0.5749202975557917,
+        "ood_external_ece": 0.34984998677878376,
+        "ood_external_mean_set_size": 1.0584484590860785,
+        "ood_external_member_std_mean": 0.08589529246091843,
+        "ood_external_success_rate": 0.5164718384697131,
+        "seed": 47.0,
+        "success_rate": 0.8698795180722891,
+        "test_member_std_mean": 0.05558834224939346
+      },
+      {
+        "auprc": 0.9652879967053123,
+        "auroc": 0.9087048832271762,
+        "brier_score": 0.08684702639863501,
+        "cal_member_std_mean": 0.049440208822488785,
+        "coverage_90": 0.9219512195121952,
+        "ece": 0.04287851094381841,
+        "mean_set_size": 1.0804878048780489,
+        "n_calibration": 402.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 935.0,
+        "n_test": 410.0,
+        "n_train": 1227.0,
+        "ood_external_auprc": 0.6066257027103457,
+        "ood_external_auroc": 0.6942460538016896,
+        "ood_external_brier_score": 0.34710913901327456,
+        "ood_external_coverage_90": 0.6064171122994653,
+        "ood_external_ece": 0.34700064178715573,
+        "ood_external_mean_set_size": 1.1518716577540107,
+        "ood_external_member_std_mean": 0.0696636512875557,
+        "ood_external_success_rate": 0.45454545454545453,
+        "seed": 48.0,
+        "success_rate": 0.8414634146341463,
+        "test_member_std_mean": 0.048007555305957794
+      },
+      {
+        "auprc": 0.9542046854866764,
+        "auroc": 0.8825987841945289,
+        "brier_score": 0.10445685961941464,
+        "cal_member_std_mean": 0.036237627267837524,
+        "coverage_90": 0.917910447761194,
+        "ece": 0.0760749993820192,
+        "mean_set_size": 1.1318407960199004,
+        "n_calibration": 412.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 939.0,
+        "n_test": 402.0,
+        "n_train": 1225.0,
+        "ood_external_auprc": 0.5919486591363938,
+        "ood_external_auroc": 0.6879507887942519,
+        "ood_external_brier_score": 0.35807162175061663,
+        "ood_external_coverage_90": 0.6570820021299254,
+        "ood_external_ece": 0.3502217686386529,
+        "ood_external_mean_set_size": 1.2247071352502663,
+        "ood_external_member_std_mean": 0.06883618235588074,
+        "ood_external_success_rate": 0.4323748668796592,
+        "seed": 49.0,
+        "success_rate": 0.7860696517412935,
+        "test_member_std_mean": 0.041189178824424744
+      },
+      {
+        "auprc": 0.9611700158328826,
+        "auroc": 0.9033879126730564,
+        "brier_score": 0.0906547120123426,
+        "cal_member_std_mean": 0.04192466661334038,
+        "coverage_90": 0.8997555012224939,
+        "ece": 0.033107269650540394,
+        "mean_set_size": 1.0440097799511003,
+        "n_calibration": 404.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 938.0,
+        "n_test": 409.0,
+        "n_train": 1226.0,
+        "ood_external_auprc": 0.667755981596776,
+        "ood_external_auroc": 0.7122506337484845,
+        "ood_external_brier_score": 0.32404130776598816,
+        "ood_external_coverage_90": 0.6108742004264393,
+        "ood_external_ece": 0.30892691843558917,
+        "ood_external_mean_set_size": 1.0927505330490406,
+        "ood_external_member_std_mean": 0.08063621073961258,
+        "ood_external_success_rate": 0.5181236673773987,
+        "seed": 50.0,
+        "success_rate": 0.8557457212713936,
+        "test_member_std_mean": 0.0435461588203907
+      },
+      {
+        "auprc": 0.9794186975040513,
+        "auroc": 0.9446980096087852,
+        "brier_score": 0.06839422291827886,
+        "cal_member_std_mean": 0.041017770767211914,
+        "coverage_90": 0.9207920792079208,
+        "ece": 0.022581535414562082,
+        "mean_set_size": 1.0198019801980198,
+        "n_calibration": 409.0,
+        "n_ensemble_members": 3.0,
+        "n_external_test": 930.0,
+        "n_test": 404.0,
+        "n_train": 1226.0,
+        "ood_external_auprc": 0.6713714189173351,
+        "ood_external_auroc": 0.7103157884881849,
+        "ood_external_brier_score": 0.34770886843281074,
+        "ood_external_coverage_90": 0.5591397849462365,
+        "ood_external_ece": 0.3430535152406803,
+        "ood_external_mean_set_size": 1.032258064516129,
+        "ood_external_member_std_mean": 0.0735321119427681,
+        "ood_external_success_rate": 0.5268817204301075,
+        "seed": 51.0,
+        "success_rate": 0.900990099009901,
+        "test_member_std_mean": 0.04496806859970093
+      }
+    ],
+    "summary": {
+      "auprc": {
+        "mean": 0.9659089078376553,
+        "std": 0.007692744677504645
+      },
+      "auroc": {
+        "mean": 0.9106472842629187,
+        "std": 0.017475577335666785
+      },
+      "brier_score": {
+        "mean": 0.08823551495265317,
+        "std": 0.009413355882483524
+      },
+      "cal_member_std_mean": {
+        "mean": 0.05124084986746311,
+        "std": 0.011735454439306745
+      },
+      "coverage_90": {
+        "mean": 0.908691697734518,
+        "std": 0.012989551108240224
+      },
+      "ece": {
+        "mean": 0.0458594469371741,
+        "std": 0.015251439525912255
+      },
+      "mean_set_size": {
+        "mean": 1.0530578589678101,
+        "std": 0.03531202283238357
+      },
+      "n_calibration": {
+        "mean": 407.5,
+        "std": 3.689323936863109
+      },
+      "n_ensemble_members": {
+        "mean": 3.0,
+        "std": 0.0
+      },
+      "n_external_test": {
+        "mean": 933.1,
+        "std": 5.70477382938574
+      },
+      "n_test": {
+        "mean": 408.2,
+        "std": 4.315347288715269
+      },
+      "n_train": {
+        "mean": 1223.3,
+        "std": 3.591656999213594
+      },
+      "ood_external_auprc": {
+        "mean": 0.6504253192822105,
+        "std": 0.041283974117102495
+      },
+      "ood_external_auroc": {
+        "mean": 0.7050568191107953,
+        "std": 0.015509807713403878
+      },
+      "ood_external_brier_score": {
+        "mean": 0.34005917415774833,
+        "std": 0.012645339030947122
+      },
+      "ood_external_coverage_90": {
+        "mean": 0.6052697609949188,
+        "std": 0.02896446793160002
+      },
+      "ood_external_ece": {
+        "mean": 0.33238981477700275,
+        "std": 0.01571131792253423
+      },
+      "ood_external_mean_set_size": {
+        "mean": 1.1024359687659853,
+        "std": 0.05493725914123097
+      },
+      "ood_external_member_std_mean": {
+        "mean": 0.08227036520838737,
+        "std": 0.012089661110027482
+      },
+      "ood_external_success_rate": {
+        "mean": 0.5028337922289337,
+        "std": 0.0339187833756588
+      },
+      "seed": {
+        "mean": 46.5,
+        "std": 3.0276503540974917
+      },
+      "success_rate": {
+        "mean": 0.855633838766708,
+        "std": 0.029987691891984213
+      },
+      "test_member_std_mean": {
+        "mean": 0.05189993418753147,
+        "std": 0.010157516832697487
+      }
+    }
+  },
+  "generated_from": "run_context_ablation_similarity_diagnostics.py",
+  "similarity_undercoverage_probe": {
+    "description": "External B3DB coverage stratified by pooled train-to-test maximum Morgan Tanimoto similarity quartiles for the default NeuroTx-MOOD RF context model.",
+    "n_pooled_predictions": 9331,
+    "summary_by_quartile": {
+      "Q1_lowest_similarity": {
+        "coverage_90": 0.5531732418524872,
+        "mean_set_size": 1.146655231560892,
+        "n": 2332,
+        "similarity_max": 0.26249998807907104,
+        "similarity_mean": 0.23467394570288078,
+        "similarity_min": 0.145454540848732,
+        "singleton_correct_success": 0.4065180102915952
+      },
+      "Q2": {
+        "coverage_90": 0.6043720531504501,
+        "mean_set_size": 1.0968709815687956,
+        "n": 2333,
+        "similarity_max": 0.3199999928474426,
+        "similarity_mean": 0.28937622550930836,
+        "similarity_min": 0.26249998807907104,
+        "singleton_correct_success": 0.5075010715816545
+      },
+      "Q3": {
+        "coverage_90": 0.6009429918559794,
+        "mean_set_size": 1.103300471495928,
+        "n": 2333,
+        "similarity_max": 0.4399999976158142,
+        "similarity_mean": 0.3677687604336385,
+        "similarity_min": 0.3199999928474426,
+        "singleton_correct_success": 0.4976425203600514
+      },
+      "Q4_highest_similarity": {
+        "coverage_90": 0.8011144449207029,
+        "mean_set_size": 1.1140162880411488,
+        "n": 2333,
+        "similarity_max": 1.0,
+        "similarity_mean": 0.6389125689666157,
+        "similarity_min": 0.4399999976158142,
+        "singleton_correct_success": 0.6870981568795542
+      }
+    }
+  }
+}

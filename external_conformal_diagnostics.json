@@ -1,0 +1,922 @@
+{
+  "generated_from": "run_external_conformal_diagnostics.py",
+  "data_dir": "data",
+  "dataset_curation_summary": {
+    "BBB_Martins": {
+      "source_file": "bbb_martins.tab",
+      "raw_rows": 2039,
+      "valid_rows": 2039,
+      "unique_canonical_smiles": 1975,
+      "duplicate_rows": 64,
+      "conflicting_duplicate_groups": 10,
+      "bbb_negative": 479,
+      "bbb_positive": 1560,
+      "bemis_murcko_scaffolds": 1025
+    },
+    "B3DB": {
+      "source_file": "b3db_classification.tab",
+      "raw_rows": 6167,
+      "valid_rows": 6167,
+      "unique_canonical_smiles": 6167,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_groups": 0,
+      "bbb_negative": 2178,
+      "bbb_positive": 3989,
+      "bemis_murcko_scaffolds": 1950
+    },
+    "ChEMBL_CNS_panel": {
+      "source_file": "chembl_cns_targets.csv",
+      "raw_rows": 1155,
+      "valid_rows": 1155,
+      "unique_canonical_smiles": 973,
+      "duplicate_rows": 182,
+      "conflicting_duplicate_groups": 25,
+      "inactive_rows": 329,
+      "active_rows": 826,
+      "bemis_murcko_scaffolds": 405,
+      "targets": 3,
+      "assay_types": 2
+    }
+  },
+  "extended_overlap_audit": {
+    "description": "Extended leakage audit for the zero-overlap external B3DB fold. The benchmark excludes exact canonical-SMILES overlaps by design; this extended audit also reports InChIKey first-block overlap counts.",
+    "seed_metrics": [
+      {
+        "seed": 42.0,
+        "partition_attempt": 0.0,
+        "external_size": 938.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 53.0
+      },
+      {
+        "seed": 43.0,
+        "partition_attempt": 0.0,
+        "external_size": 927.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 53.0
+      },
+      {
+        "seed": 44.0,
+        "partition_attempt": 0.0,
+        "external_size": 930.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 57.0
+      },
+      {
+        "seed": 45.0,
+        "partition_attempt": 0.0,
+        "external_size": 926.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 54.0
+      },
+      {
+        "seed": 46.0,
+        "partition_attempt": 0.0,
+        "external_size": 927.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 64.0
+      },
+      {
+        "seed": 47.0,
+        "partition_attempt": 0.0,
+        "external_size": 941.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 44.0
+      },
+      {
+        "seed": 48.0,
+        "partition_attempt": 0.0,
+        "external_size": 935.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 51.0
+      },
+      {
+        "seed": 49.0,
+        "partition_attempt": 0.0,
+        "external_size": 939.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 49.0
+      },
+      {
+        "seed": 50.0,
+        "partition_attempt": 0.0,
+        "external_size": 938.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 52.0
+      },
+      {
+        "seed": 51.0,
+        "partition_attempt": 0.0,
+        "external_size": 930.0,
+        "remaining_exact_overlap": 0.0,
+        "remaining_inchikey1_overlap": 48.0
+      }
+    ],
+    "summary": {
+      "external_size": {
+        "mean": 933.1,
+        "std": 5.70477382938574
+      },
+      "partition_attempt": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "remaining_exact_overlap": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "remaining_inchikey1_overlap": {
+        "mean": 52.5,
+        "std": 5.400617248673217
+      }
+    }
+  },
+  "fixed_predictor_external_probes": {
+    "description": "Fixed-point external BBB conformal diagnostics: class-wise coverage, class-conditional conformal baselines, empty-set rate before operational singleton replacement, context-wise coverage for retained versus fallback proxy groups, and coverage across an alpha grid.",
+    "fixed_point_metrics_by_scheme": {
+      "global_full_rf": {
+        "coverage": {
+          "mean": 0.6094780179376251,
+          "std": 0.030019130380430435
+        },
+        "empty_set_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mean_set_size": {
+          "mean": 1.0641486036337668,
+          "std": 0.04837022335742843
+        },
+        "singleton_success": {
+          "mean": 0.5453294143038583,
+          "std": 0.030682313716902825
+        }
+      },
+      "global_class_conditional": {
+        "coverage": {
+          "mean": 0.82699987156113,
+          "std": 0.04537922585207596
+        },
+        "empty_set_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mean_set_size": {
+          "mean": 1.3237972303328274,
+          "std": 0.10094761397111407
+        },
+        "singleton_success": {
+          "mean": 0.5032026412283025,
+          "std": 0.05838711790829351
+        }
+      },
+      "proxy_context": {
+        "coverage": {
+          "mean": 0.6398926093296011,
+          "std": 0.037373947466055345
+        },
+        "empty_set_rate": {
+          "mean": 0.03055282383233725,
+          "std": 0.02142790694506567
+        },
+        "mean_set_size": {
+          "mean": 1.1151146304495199,
+          "std": 0.06336019247263237
+        },
+        "singleton_success": {
+          "mean": 0.5247779788800816,
+          "std": 0.03533303555520868
+        }
+      },
+      "proxy_context_class_conditional": {
+        "coverage": {
+          "mean": 0.7344349274388638,
+          "std": 0.05418209781326689
+        },
+        "empty_set_rate": {
+          "mean": 0.007279354186257294,
+          "std": 0.011607962268922186
+        },
+        "mean_set_size": {
+          "mean": 1.271047300276069,
+          "std": 0.09028343276640179
+        },
+        "singleton_success": {
+          "mean": 0.46338762716279475,
+          "std": 0.055363305348827135
+        }
+      },
+      "local_similarity_knn75": {
+        "coverage": {
+          "mean": 0.6833399536601267,
+          "std": 0.03021329670831774
+        },
+        "empty_set_rate": {
+          "mean": 0.02564787205160164,
+          "std": 0.013854735028751444
+        },
+        "mean_set_size": {
+          "mean": 1.2103767954314175,
+          "std": 0.05066610070618421
+        },
+        "singleton_success": {
+          "mean": 0.472963158228709,
+          "std": 0.026311275508241354
+        }
+      },
+      "local_similarity_class_conditional_knn75": {
+        "coverage": {
+          "mean": 0.8633764149196395,
+          "std": 0.030204250268780052
+        },
+        "empty_set_rate": {
+          "mean": 0.004285334828228965,
+          "std": 0.003316383891907016
+        },
+        "mean_set_size": {
+          "mean": 1.4516631579114774,
+          "std": 0.06275277096566956
+        },
+        "singleton_success": {
+          "mean": 0.4117132570081619,
+          "std": 0.0373950949631336
+        }
+      }
+    },
+    "paired_effects_vs_global_full_rf": {
+      "global_class_conditional": {
+        "coverage": {
+          "mean_difference": 0.2175218536235048,
+          "ci95_low": 0.17828117603305124,
+          "ci95_high": 0.2567625312139583,
+          "sd_difference": 0.054854684791514036,
+          "n_pairs": 10
+        },
+        "mean_set_size": {
+          "mean_difference": 0.25964862669906064,
+          "ci95_low": 0.1816943833259191,
+          "ci95_high": 0.33760287007220213,
+          "sd_difference": 0.10897251808503303,
+          "n_pairs": 10
+        },
+        "singleton_success": {
+          "mean_difference": -0.04212677307555583,
+          "ci95_low": -0.0840702229863494,
+          "ci95_high": -0.00018332316476225852,
+          "sd_difference": 0.058632899970233306,
+          "n_pairs": 10
+        }
+      },
+      "proxy_context": {
+        "coverage": {
+          "mean_difference": 0.030414591391976074,
+          "ci95_low": 0.010550715985819928,
+          "ci95_high": 0.05027846679813222,
+          "sd_difference": 0.02776778310290154,
+          "n_pairs": 10
+        },
+        "mean_set_size": {
+          "mean_difference": 0.050966026815752706,
+          "ci95_low": 0.01038483934519422,
+          "ci95_high": 0.09154721428631118,
+          "sd_difference": 0.05672858838972702,
+          "n_pairs": 10
+        },
+        "singleton_success": {
+          "mean_difference": -0.02055143542377666,
+          "ci95_low": -0.04137010447697333,
+          "ci95_high": 0.0002672336294200113,
+          "sd_difference": 0.029102492587176343,
+          "n_pairs": 10
+        }
+      },
+      "proxy_context_class_conditional": {
+        "coverage": {
+          "mean_difference": 0.12495690950123868,
+          "ci95_low": 0.09004063334677943,
+          "ci95_high": 0.1598731856556979,
+          "sd_difference": 0.04880958842087574,
+          "n_pairs": 10
+        },
+        "mean_set_size": {
+          "mean_difference": 0.20689869664230215,
+          "ci95_low": 0.14720405426093328,
+          "ci95_high": 0.266593339023671,
+          "sd_difference": 0.08344735597452502,
+          "n_pairs": 10
+        },
+        "singleton_success": {
+          "mean_difference": -0.0819417871410634,
+          "ci95_low": -0.12482312688083651,
+          "ci95_high": -0.03906044740129029,
+          "sd_difference": 0.059943979546248465,
+          "n_pairs": 10
+        }
+      },
+      "local_similarity_knn75": {
+        "coverage": {
+          "mean_difference": 0.0738619357225015,
+          "ci95_low": 0.055941549225682424,
+          "ci95_high": 0.09178232221932059,
+          "sd_difference": 0.025050972944062083,
+          "n_pairs": 10
+        },
+        "mean_set_size": {
+          "mean_difference": 0.14622819179765062,
+          "ci95_low": 0.11342501823001927,
+          "ci95_high": 0.17903136536528197,
+          "sd_difference": 0.045855674690273476,
+          "n_pairs": 10
+        },
+        "singleton_success": {
+          "mean_difference": -0.07236625607514913,
+          "ci95_low": -0.08920466142689927,
+          "ci95_high": -0.05552785072339898,
+          "sd_difference": 0.023538467597376708,
+          "n_pairs": 10
+        }
+      },
+      "local_similarity_class_conditional_knn75": {
+        "coverage": {
+          "mean_difference": 0.25389839698201444,
+          "ci95_low": 0.2256370070893482,
+          "ci95_high": 0.2821597868746807,
+          "sd_difference": 0.03950669890342149,
+          "n_pairs": 10
+        },
+        "mean_set_size": {
+          "mean_difference": 0.38751455427771064,
+          "ci95_low": 0.32800563132154165,
+          "ci95_high": 0.44702347723387964,
+          "sd_difference": 0.08318773811992716,
+          "n_pairs": 10
+        },
+        "singleton_success": {
+          "mean_difference": -0.13361615729569623,
+          "ci95_low": -0.16674250202471863,
+          "ci95_high": -0.10048981256667383,
+          "sd_difference": 0.04630743682284496,
+          "n_pairs": 10
+        }
+      }
+    },
+    "classwise_summary_by_scheme": {
+      "global_full_rf": {
+        "coverage_bbb_negative": {
+          "mean": 0.3323162101989471,
+          "std": 0.04512585045457517
+        },
+        "coverage_bbb_positive": {
+          "mean": 0.945649410437295,
+          "std": 0.01222623855214107
+        },
+        "empty_set_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        }
+      },
+      "global_class_conditional": {
+        "coverage_bbb_negative": {
+          "mean": 0.8627188320886058,
+          "std": 0.060139535110077
+        },
+        "coverage_bbb_positive": {
+          "mean": 0.7839775271380607,
+          "std": 0.03725656045842717
+        },
+        "empty_set_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        }
+      },
+      "proxy_context": {
+        "coverage_bbb_negative": {
+          "mean": 0.38115738233719526,
+          "std": 0.05836375889321667
+        },
+        "coverage_bbb_positive": {
+          "mean": 0.9535206719169051,
+          "std": 0.014013557803166562
+        },
+        "empty_set_rate": {
+          "mean": 0.03055282383233725,
+          "std": 0.02142790694506567
+        }
+      },
+      "proxy_context_class_conditional": {
+        "coverage_bbb_negative": {
+          "mean": 0.6468198419751963,
+          "std": 0.09602641374428132
+        },
+        "coverage_bbb_positive": {
+          "mean": 0.840463549558782,
+          "std": 0.014597454944383576
+        },
+        "empty_set_rate": {
+          "mean": 0.007279354186257294,
+          "std": 0.011607962268922186
+        }
+      },
+      "local_similarity_knn75": {
+        "coverage_bbb_negative": {
+          "mean": 0.45051619290859746,
+          "std": 0.04712389046833347
+        },
+        "coverage_bbb_positive": {
+          "mean": 0.9658720020027763,
+          "std": 0.011139986598588785
+        },
+        "empty_set_rate": {
+          "mean": 0.02564787205160164,
+          "std": 0.013854735028751444
+        }
+      },
+      "local_similarity_class_conditional_knn75": {
+        "coverage_bbb_negative": {
+          "mean": 0.9006808179530774,
+          "std": 0.03317139242639879
+        },
+        "coverage_bbb_positive": {
+          "mean": 0.8184477011459727,
+          "std": 0.033895318949104095
+        },
+        "empty_set_rate": {
+          "mean": 0.004285334828228965,
+          "std": 0.003316383891907016
+        }
+      }
+    },
+    "context_support_summary": {
+      "fallback_context_coverage": {
+        "mean": 0.5838065615136399,
+        "std": 0.04133616758354943
+      },
+      "fallback_context_set_size": {
+        "mean": 1.0647670235747888,
+        "std": 0.05032017816350337
+      },
+      "fallback_support_fraction": {
+        "mean": 0.13468762073264778,
+        "std": 0.008602673700989081
+      },
+      "retained_context_coverage": {
+        "mean": 0.6487537763420312,
+        "std": 0.040655049531909904
+      },
+      "retained_context_set_size": {
+        "mean": 1.1234114918789915,
+        "std": 0.07288855844387665
+      },
+      "retained_support_fraction": {
+        "mean": 0.8653123792673523,
+        "std": 0.008602673700989072
+      }
+    },
+    "alpha_grid_summary_by_scheme": {
+      "global_full_rf": {
+        "0.2": {
+          "alpha": {
+            "mean": 0.2,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.5781013799386223,
+            "std": 0.018639806341906234
+          },
+          "mean_set_size": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "nominal_coverage": {
+            "mean": 0.8,
+            "std": 0.0
+          }
+        },
+        "0.15": {
+          "alpha": {
+            "mean": 0.14999999999999997,
+            "std": 2.925694557147251e-17
+          },
+          "coverage": {
+            "mean": 0.5781013799386223,
+            "std": 0.018639806341906234
+          },
+          "mean_set_size": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "nominal_coverage": {
+            "mean": 0.85,
+            "std": 0.0
+          }
+        },
+        "0.1": {
+          "alpha": {
+            "mean": 0.1,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.6094780179376251,
+            "std": 0.030019130380430435
+          },
+          "mean_set_size": {
+            "mean": 1.0641486036337668,
+            "std": 0.04837022335742843
+          },
+          "nominal_coverage": {
+            "mean": 0.9,
+            "std": 0.0
+          }
+        },
+        "0.05": {
+          "alpha": {
+            "mean": 0.05,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.8291351897752973,
+            "std": 0.03875659184704781
+          },
+          "mean_set_size": {
+            "mean": 1.4863624837257867,
+            "std": 0.0749902790147056
+          },
+          "nominal_coverage": {
+            "mean": 0.9499999999999998,
+            "std": 1.1702778228589004e-16
+          }
+        }
+      },
+      "global_class_conditional": {
+        "0.2": {
+          "alpha": {
+            "mean": 0.2,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.6780992606220526,
+            "std": 0.012998793379607241
+          },
+          "mean_set_size": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "nominal_coverage": {
+            "mean": 0.8,
+            "std": 0.0
+          }
+        },
+        "0.15": {
+          "alpha": {
+            "mean": 0.14999999999999997,
+            "std": 2.925694557147251e-17
+          },
+          "coverage": {
+            "mean": 0.7187083948023256,
+            "std": 0.0459445036851511
+          },
+          "mean_set_size": {
+            "mean": 1.0750129112096491,
+            "std": 0.08861784255291885
+          },
+          "nominal_coverage": {
+            "mean": 0.85,
+            "std": 0.0
+          }
+        },
+        "0.1": {
+          "alpha": {
+            "mean": 0.1,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.82699987156113,
+            "std": 0.04537922585207596
+          },
+          "mean_set_size": {
+            "mean": 1.3237972303328274,
+            "std": 0.10094761397111407
+          },
+          "nominal_coverage": {
+            "mean": 0.9,
+            "std": 0.0
+          }
+        },
+        "0.05": {
+          "alpha": {
+            "mean": 0.05,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.9307750066550134,
+            "std": 0.021026903261015365
+          },
+          "mean_set_size": {
+            "mean": 1.6375180120517343,
+            "std": 0.07047155653301082
+          },
+          "nominal_coverage": {
+            "mean": 0.9499999999999998,
+            "std": 1.1702778228589004e-16
+          }
+        }
+      },
+      "proxy_context": {
+        "0.2": {
+          "alpha": {
+            "mean": 0.2,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.589021404239592,
+            "std": 0.01936864738849538
+          },
+          "mean_set_size": {
+            "mean": 1.020015078695554,
+            "std": 0.014243418893358686
+          },
+          "nominal_coverage": {
+            "mean": 0.8,
+            "std": 0.0
+          }
+        },
+        "0.15": {
+          "alpha": {
+            "mean": 0.14999999999999997,
+            "std": 2.925694557147251e-17
+          },
+          "coverage": {
+            "mean": 0.5936342443373196,
+            "std": 0.020522465224344356
+          },
+          "mean_set_size": {
+            "mean": 1.0294546804382836,
+            "std": 0.015728303404991414
+          },
+          "nominal_coverage": {
+            "mean": 0.85,
+            "std": 0.0
+          }
+        },
+        "0.1": {
+          "alpha": {
+            "mean": 0.1,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.6398926093296011,
+            "std": 0.037373947466055345
+          },
+          "mean_set_size": {
+            "mean": 1.1151146304495199,
+            "std": 0.06336019247263237
+          },
+          "nominal_coverage": {
+            "mean": 0.9,
+            "std": 0.0
+          }
+        },
+        "0.05": {
+          "alpha": {
+            "mean": 0.05,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.8566049117606939,
+            "std": 0.0424292708435417
+          },
+          "mean_set_size": {
+            "mean": 1.5454625853844806,
+            "std": 0.09113474176020965
+          },
+          "nominal_coverage": {
+            "mean": 0.9499999999999998,
+            "std": 1.1702778228589004e-16
+          }
+        }
+      },
+      "proxy_context_class_conditional": {
+        "0.2": {
+          "alpha": {
+            "mean": 0.2,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.6295298400951163,
+            "std": 0.023978012391362092
+          },
+          "mean_set_size": {
+            "mean": 1.044238295906089,
+            "std": 0.028304428442373093
+          },
+          "nominal_coverage": {
+            "mean": 0.8,
+            "std": 0.0
+          }
+        },
+        "0.15": {
+          "alpha": {
+            "mean": 0.14999999999999997,
+            "std": 2.925694557147251e-17
+          },
+          "coverage": {
+            "mean": 0.6528446070084251,
+            "std": 0.029339944835004184
+          },
+          "mean_set_size": {
+            "mean": 1.0892151716144627,
+            "std": 0.044060030149483946
+          },
+          "nominal_coverage": {
+            "mean": 0.85,
+            "std": 0.0
+          }
+        },
+        "0.1": {
+          "alpha": {
+            "mean": 0.1,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.7344349274388638,
+            "std": 0.05418209781326689
+          },
+          "mean_set_size": {
+            "mean": 1.271047300276069,
+            "std": 0.09028343276640179
+          },
+          "nominal_coverage": {
+            "mean": 0.9,
+            "std": 0.0
+          }
+        },
+        "0.05": {
+          "alpha": {
+            "mean": 0.05,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.9123366453903374,
+            "std": 0.028998778643065822
+          },
+          "mean_set_size": {
+            "mean": 1.6762172950060275,
+            "std": 0.07615314901946697
+          },
+          "nominal_coverage": {
+            "mean": 0.9499999999999998,
+            "std": 1.1702778228589004e-16
+          }
+        }
+      },
+      "local_similarity_knn75": {
+        "0.2": {
+          "alpha": {
+            "mean": 0.2,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.5809988219819473,
+            "std": 0.019436432875226117
+          },
+          "mean_set_size": {
+            "mean": 1.0056806876187445,
+            "std": 0.006860789949970564
+          },
+          "nominal_coverage": {
+            "mean": 0.8,
+            "std": 0.0
+          }
+        },
+        "0.15": {
+          "alpha": {
+            "mean": 0.14999999999999997,
+            "std": 2.925694557147251e-17
+          },
+          "coverage": {
+            "mean": 0.601570920454382,
+            "std": 0.023480258537618065
+          },
+          "mean_set_size": {
+            "mean": 1.0462938428793271,
+            "std": 0.02610050413206441
+          },
+          "nominal_coverage": {
+            "mean": 0.85,
+            "std": 0.0
+          }
+        },
+        "0.1": {
+          "alpha": {
+            "mean": 0.1,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.6833399536601267,
+            "std": 0.03021329670831774
+          },
+          "mean_set_size": {
+            "mean": 1.2103767954314175,
+            "std": 0.05066610070618421
+          },
+          "nominal_coverage": {
+            "mean": 0.9,
+            "std": 0.0
+          }
+        },
+        "0.05": {
+          "alpha": {
+            "mean": 0.05,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.8777508178261563,
+            "std": 0.030636188628278722
+          },
+          "mean_set_size": {
+            "mean": 1.6075087569625943,
+            "std": 0.064054675240061
+          },
+          "nominal_coverage": {
+            "mean": 0.9499999999999998,
+            "std": 1.1702778228589004e-16
+          }
+        }
+      },
+      "local_similarity_class_conditional_knn75": {
+        "0.2": {
+          "alpha": {
+            "mean": 0.2,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.6990676751643801,
+            "std": 0.030563156059709884
+          },
+          "mean_set_size": {
+            "mean": 1.0804128715240593,
+            "std": 0.03627128762758396
+          },
+          "nominal_coverage": {
+            "mean": 0.8,
+            "std": 0.0
+          }
+        },
+        "0.15": {
+          "alpha": {
+            "mean": 0.14999999999999997,
+            "std": 2.925694557147251e-17
+          },
+          "coverage": {
+            "mean": 0.7704751165687274,
+            "std": 0.03139196480501581
+          },
+          "mean_set_size": {
+            "mean": 1.225863456532596,
+            "std": 0.05370274787414739
+          },
+          "nominal_coverage": {
+            "mean": 0.85,
+            "std": 0.0
+          }
+        },
+        "0.1": {
+          "alpha": {
+            "mean": 0.1,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.8633764149196395,
+            "std": 0.030204250268780052
+          },
+          "mean_set_size": {
+            "mean": 1.4516631579114774,
+            "std": 0.06275277096566956
+          },
+          "nominal_coverage": {
+            "mean": 0.9,
+            "std": 0.0
+          }
+        },
+        "0.05": {
+          "alpha": {
+            "mean": 0.05,
+            "std": 0.0
+          },
+          "coverage": {
+            "mean": 0.9455979950028223,
+            "std": 0.014843966535117256
+          },
+          "mean_set_size": {
+            "mean": 1.7267641995983838,
+            "std": 0.043811231983974123
+          },
+          "nominal_coverage": {
+            "mean": 0.9499999999999998,
+            "std": 1.1702778228589004e-16
+          }
+        }
+      }
+    }
+  }
+}

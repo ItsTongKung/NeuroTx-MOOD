@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Downloaded inputs; prepare_data.py restores and verifies them.
+data/bbb_martins.tab
+data/b3db_classification.tab
+data/B3DB_official_classification.tsv
+data/*.part
+
+# Temporary outputs.
+tmp/

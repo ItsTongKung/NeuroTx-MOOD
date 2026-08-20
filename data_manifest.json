@@ -1,0 +1,62 @@
+{
+  "schema_version": "2.0",
+  "files": {
+    "data/bbb_martins.tab": {
+      "public_source": "Therapeutics Data Commons ADME BBB_Martins benchmark",
+      "source_locator": "https://dataverse.harvard.edu/api/access/datafile/4259566",
+      "tdc_release": "PyTDC 1.1.15 registry file 4259566",
+      "rows": 2039,
+      "columns": ["Drug_ID", "Drug", "Y"],
+      "sha256": "eb32676c7bf6e2bcd98b7625186bbb2ba4e4644c1d1468dfa18b6be665bd5e98",
+      "redistributed": false,
+      "license_note": "The TDC page lists the dataset license as not specified; prepare_data.py downloads the file from its public source instead of redistributing it."
+    },
+    "data/b3db_classification.tab": {
+      "public_source": "Therapeutics Data Commons B3DB_Classification snapshot",
+      "source_locator": "https://dataverse.harvard.edu/api/access/datafile/7878566",
+      "tdc_release": "PyTDC 1.1.15 registry file 7878566",
+      "rows": 6167,
+      "columns": ["Drug_ID", "Drug", "Y"],
+      "sha256": "c4ef6b7cc8770c82a168cbc8102fadf81eb8179c4f8ce90631e78094d1968f88",
+      "redistributed": false,
+      "upstream_license": "CC0-1.0"
+    },
+    "data/B3DB_official_classification.tsv": {
+      "public_source": "Official B3DB classification table",
+      "source_locator": "https://raw.githubusercontent.com/theochem/B3DB/0ec04a3ffb1b9b53ddc5f8c24e94d3ced807cb6d/B3DB/B3DB_classification.tsv",
+      "source_commit": "0ec04a3ffb1b9b53ddc5f8c24e94d3ced807cb6d",
+      "rows": 7809,
+      "sha256": "47a160aea1551423ead2aab70b301fb1646aea03cf151fd614eb37c78fa55b82",
+      "redistributed": false,
+      "license": "CC0-1.0"
+    },
+    "data/chembl_cns_targets.csv": {
+      "public_source": "Processed CNS target panel derived from public ChEMBL records",
+      "source_locator": "https://www.ebi.ac.uk/chembl/",
+      "rows": 1155,
+      "columns": [
+        "target_chembl_id",
+        "target_pref_name",
+        "molecule_chembl_id",
+        "parent_molecule_chembl_id",
+        "canonical_smiles",
+        "pchembl_value",
+        "standard_type",
+        "standard_relation",
+        "standard_value",
+        "standard_units",
+        "assay_chembl_id",
+        "assay_type",
+        "bao_format",
+        "document_chembl_id",
+        "document_journal",
+        "document_year"
+      ],
+      "sha256": "af29a6bcd311fdece9ddd831b3d2b01dacf86f6bb2266f357726c28fca26d5a7",
+      "redistributed": true,
+      "license": "CC BY-SA 3.0",
+      "provenance_limit": "The original extraction did not record a ChEMBL release identifier. The deposited processed table and its checksum define the exact analysed snapshot."
+    }
+  },
+  "note": "Run prepare_data.py to download and checksum the three non-redistributed inputs. The deposited ChEMBL panel is validated in place."
+}

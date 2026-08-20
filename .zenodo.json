@@ -1,0 +1,33 @@
+{
+  "title": "NeuroTx-MOOD: Contextual Conformal Calibration for BBB and CNS Screening",
+  "description": "Experimental code and machine-readable results for contextual conformal calibration, leakage-audited blood-brain barrier screening, assay-aware ChEMBL evaluation, fixed-score ablations, and deployment-guard analyses.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Sriwicha, Phongsakon",
+      "affiliation": "King Mongkut's University of Technology Thonburi"
+    },
+    {
+      "name": "Prom-on, Santitham",
+      "affiliation": "King Mongkut's University of Technology Thonburi"
+    }
+  ],
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "version": "1.0.4",
+  "keywords": [
+    "blood-brain barrier",
+    "conformal prediction",
+    "molecular machine learning",
+    "uncertainty quantification",
+    "distribution shift",
+    "cheminformatics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ItsTongKung/NeuroTx-MOOD/tree/v1.0.4",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

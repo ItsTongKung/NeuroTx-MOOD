@@ -1,0 +1,1670 @@
+{
+  "generated_from": [
+    "main.py"
+  ],
+  "bin_edges": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "rf_morgan_global_cp_point_model": {
+    "seed_curves": [
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 8.0,
+          "mean_probability": 0.059034867625756896,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 16.0,
+          "mean_probability": 0.15663410030652192,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 17.0,
+          "mean_probability": 0.23589235890847088,
+          "positive_rate": 0.058823529411764705
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 32.0,
+          "mean_probability": 0.3539500424710757,
+          "positive_rate": 0.15625
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 72.0,
+          "mean_probability": 0.4571571759277361,
+          "positive_rate": 0.2361111111111111
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 124.0,
+          "mean_probability": 0.5565217897684204,
+          "positive_rate": 0.2661290322580645
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 258.0,
+          "mean_probability": 0.6520797223033284,
+          "positive_rate": 0.4186046511627907
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 248.0,
+          "mean_probability": 0.7479998069245445,
+          "positive_rate": 0.5
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 133.0,
+          "mean_probability": 0.8401733394203532,
+          "positive_rate": 0.6842105263157895
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 30.0,
+          "mean_probability": 0.9294632291101947,
+          "positive_rate": 0.9333333333333333
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 3.0,
+          "mean_probability": 0.07815612624752344,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 13.0,
+          "mean_probability": 0.15917534524623736,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 15.0,
+          "mean_probability": 0.23035722070458578,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 24.0,
+          "mean_probability": 0.3647056757761324,
+          "positive_rate": 0.20833333333333334
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 56.0,
+          "mean_probability": 0.4607475718108776,
+          "positive_rate": 0.21428571428571427
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 131.0,
+          "mean_probability": 0.553513456822104,
+          "positive_rate": 0.31297709923664124
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 225.0,
+          "mean_probability": 0.6497311073811843,
+          "positive_rate": 0.3466666666666667
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 233.0,
+          "mean_probability": 0.7484861894416734,
+          "positive_rate": 0.5321888412017167
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 178.0,
+          "mean_probability": 0.8440752504986095,
+          "positive_rate": 0.6741573033707865
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 49.0,
+          "mean_probability": 0.9316234444044127,
+          "positive_rate": 0.8775510204081632
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 2.0,
+          "mean_probability": 0.0427006437620724,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 15.0,
+          "mean_probability": 0.16401313444964627,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 11.0,
+          "mean_probability": 0.2727822900099237,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 21.0,
+          "mean_probability": 0.3463370348699836,
+          "positive_rate": 0.38095238095238093
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 53.0,
+          "mean_probability": 0.4533202604863153,
+          "positive_rate": 0.2830188679245283
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 141.0,
+          "mean_probability": 0.5566124686312731,
+          "positive_rate": 0.2553191489361702
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 242.0,
+          "mean_probability": 0.6530545330284228,
+          "positive_rate": 0.40082644628099173
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 254.0,
+          "mean_probability": 0.7503421212572159,
+          "positive_rate": 0.5433070866141733
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 160.0,
+          "mean_probability": 0.847542412280465,
+          "positive_rate": 0.70625
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 31.0,
+          "mean_probability": 0.9268082516687298,
+          "positive_rate": 0.9354838709677419
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 2.0,
+          "mean_probability": 0.07117084827827966,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 18.0,
+          "mean_probability": 0.1526712690212234,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 19.0,
+          "mean_probability": 0.2411858415907432,
+          "positive_rate": 0.05263157894736842
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 21.0,
+          "mean_probability": 0.3477514044811868,
+          "positive_rate": 0.23809523809523808
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 69.0,
+          "mean_probability": 0.46131667213689304,
+          "positive_rate": 0.21739130434782608
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 138.0,
+          "mean_probability": 0.5527903839000471,
+          "positive_rate": 0.2753623188405797
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 228.0,
+          "mean_probability": 0.6520068662105156,
+          "positive_rate": 0.35526315789473684
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 258.0,
+          "mean_probability": 0.7488583559506772,
+          "positive_rate": 0.6046511627906976
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 139.0,
+          "mean_probability": 0.8452632030695871,
+          "positive_rate": 0.6906474820143885
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 34.0,
+          "mean_probability": 0.934504440879734,
+          "positive_rate": 0.9117647058823529
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 3.0,
+          "mean_probability": 0.06559259693818578,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 16.0,
+          "mean_probability": 0.16159884611639647,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 15.0,
+          "mean_probability": 0.2546487851436008,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 17.0,
+          "mean_probability": 0.35152908302153274,
+          "positive_rate": 0.058823529411764705
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 52.0,
+          "mean_probability": 0.4654033619062478,
+          "positive_rate": 0.2692307692307692
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 150.0,
+          "mean_probability": 0.5593415095984963,
+          "positive_rate": 0.28
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 251.0,
+          "mean_probability": 0.6537171319076897,
+          "positive_rate": 0.3904382470119522
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 255.0,
+          "mean_probability": 0.7482494127736465,
+          "positive_rate": 0.5882352941176471
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 138.0,
+          "mean_probability": 0.838234818476488,
+          "positive_rate": 0.7028985507246377
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 30.0,
+          "mean_probability": 0.9319170708211222,
+          "positive_rate": 1.0
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 4.0,
+          "mean_probability": 0.044980463371730034,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 11.0,
+          "mean_probability": 0.15322835914293095,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 18.0,
+          "mean_probability": 0.250771585200911,
+          "positive_rate": 0.1111111111111111
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 23.0,
+          "mean_probability": 0.3508952465859162,
+          "positive_rate": 0.17391304347826086
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 50.0,
+          "mean_probability": 0.45815903304107386,
+          "positive_rate": 0.26
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 142.0,
+          "mean_probability": 0.5552885635911285,
+          "positive_rate": 0.2887323943661972
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 232.0,
+          "mean_probability": 0.6526639004347338,
+          "positive_rate": 0.3275862068965517
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 267.0,
+          "mean_probability": 0.746742086190108,
+          "positive_rate": 0.5655430711610487
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 161.0,
+          "mean_probability": 0.8452284233810983,
+          "positive_rate": 0.6832298136645962
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 33.0,
+          "mean_probability": 0.9289506891721551,
+          "positive_rate": 0.9393939393939394
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 5.0,
+          "mean_probability": 0.06514048707022477,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 14.0,
+          "mean_probability": 0.1603840415538802,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 10.0,
+          "mean_probability": 0.25616986797292374,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 29.0,
+          "mean_probability": 0.34956591918662255,
+          "positive_rate": 0.20689655172413793
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 50.0,
+          "mean_probability": 0.45667492100803536,
+          "positive_rate": 0.24
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 114.0,
+          "mean_probability": 0.5576683427341214,
+          "positive_rate": 0.2631578947368421
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 269.0,
+          "mean_probability": 0.6549166105474659,
+          "positive_rate": 0.36059479553903345
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 248.0,
+          "mean_probability": 0.7451411865851715,
+          "positive_rate": 0.5080645161290323
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 156.0,
+          "mean_probability": 0.8404542813800041,
+          "positive_rate": 0.7051282051282052
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 40.0,
+          "mean_probability": 0.9242873677672481,
+          "positive_rate": 0.875
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 3.0,
+          "mean_probability": 0.07797396765648294,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 14.0,
+          "mean_probability": 0.1391457267586337,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 19.0,
+          "mean_probability": 0.2492179166950064,
+          "positive_rate": 0.05263157894736842
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 18.0,
+          "mean_probability": 0.358992968286506,
+          "positive_rate": 0.16666666666666666
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 60.0,
+          "mean_probability": 0.46462119519169676,
+          "positive_rate": 0.25
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 154.0,
+          "mean_probability": 0.5578712213516347,
+          "positive_rate": 0.2792207792207792
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 261.0,
+          "mean_probability": 0.652172402912261,
+          "positive_rate": 0.3831417624521073
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 254.0,
+          "mean_probability": 0.75201271553227,
+          "positive_rate": 0.5118110236220472
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 116.0,
+          "mean_probability": 0.8416214683316783,
+          "positive_rate": 0.75
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 40.0,
+          "mean_probability": 0.9254363478338654,
+          "positive_rate": 0.95
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 4.0,
+          "mean_probability": 0.05020429022465732,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 13.0,
+          "mean_probability": 0.16455874587234537,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 15.0,
+          "mean_probability": 0.26059279122247847,
+          "positive_rate": 0.13333333333333333
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 22.0,
+          "mean_probability": 0.3608942074356479,
+          "positive_rate": 0.045454545454545456
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 66.0,
+          "mean_probability": 0.45367474874047004,
+          "positive_rate": 0.30303030303030304
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 131.0,
+          "mean_probability": 0.5547198625193878,
+          "positive_rate": 0.26717557251908397
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 248.0,
+          "mean_probability": 0.6511300611611331,
+          "positive_rate": 0.35080645161290325
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 262.0,
+          "mean_probability": 0.7496867987753532,
+          "positive_rate": 0.5419847328244275
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 143.0,
+          "mean_probability": 0.8456539580889473,
+          "positive_rate": 0.7342657342657343
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 34.0,
+          "mean_probability": 0.9260950087614171,
+          "positive_rate": 0.8823529411764706
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 4.0,
+          "mean_probability": 0.06015502146387946,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 9.0,
+          "mean_probability": 0.16194333556566393,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 15.0,
+          "mean_probability": 0.25990110174875164,
+          "positive_rate": 0.2
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 26.0,
+          "mean_probability": 0.35572546896892754,
+          "positive_rate": 0.07692307692307693
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 46.0,
+          "mean_probability": 0.46067445892729236,
+          "positive_rate": 0.1956521739130435
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 141.0,
+          "mean_probability": 0.5572425629846093,
+          "positive_rate": 0.24822695035460993
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 247.0,
+          "mean_probability": 0.6530096723077456,
+          "positive_rate": 0.3684210526315789
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 265.0,
+          "mean_probability": 0.7473841640195279,
+          "positive_rate": 0.5245283018867924
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 149.0,
+          "mean_probability": 0.8417713052288482,
+          "positive_rate": 0.738255033557047
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 28.0,
+          "mean_probability": 0.9292440748136154,
+          "positive_rate": 0.8928571428571429
+        }
+      ]
+    ],
+    "aggregate_curve": [
+      {
+        "bin_left": 0.0,
+        "bin_right": 0.1,
+        "count_mean": 3.8,
+        "count_std": 1.751190071541826,
+        "mean_probability_mean": 0.061510931263879264,
+        "mean_probability_std": 0.012623322985695126,
+        "positive_rate_mean": 0.0,
+        "positive_rate_std": 0.0
+      },
+      {
+        "bin_left": 0.1,
+        "bin_right": 0.2,
+        "count_mean": 13.9,
+        "count_std": 2.601281735350223,
+        "mean_probability_mean": 0.15733529040334795,
+        "mean_probability_std": 0.0075926606076445625,
+        "positive_rate_mean": 0.0,
+        "positive_rate_std": 0.0
+      },
+      {
+        "bin_left": 0.2,
+        "bin_right": 0.30000000000000004,
+        "count_mean": 15.4,
+        "count_std": 3.062315754094894,
+        "mean_probability_mean": 0.2511519759197396,
+        "mean_probability_std": 0.012646652920542243,
+        "positive_rate_mean": 0.060853113175094606,
+        "positive_rate_std": 0.06838844669854505
+      },
+      {
+        "bin_left": 0.30000000000000004,
+        "bin_right": 0.4,
+        "count_mean": 23.3,
+        "count_std": 4.667856991049414,
+        "mean_probability_mean": 0.3540347051083531,
+        "mean_probability_std": 0.005992689939967786,
+        "positive_rate_mean": 0.1712308366039405,
+        "positive_rate_std": 0.09927744280946424
+      },
+      {
+        "bin_left": 0.4,
+        "bin_right": 0.5,
+        "count_mean": 57.4,
+        "count_std": 8.934328302800509,
+        "mean_probability_mean": 0.45917493991766384,
+        "mean_probability_std": 0.00413180871461439,
+        "positive_rate_mean": 0.24687202438432956,
+        "positive_rate_std": 0.033098948490098486
+      },
+      {
+        "bin_left": 0.5,
+        "bin_right": 0.6000000000000001,
+        "count_mean": 136.6,
+        "count_std": 11.946175585144859,
+        "mean_probability_mean": 0.5561570161901223,
+        "mean_probability_std": 0.0020554738236594843,
+        "positive_rate_mean": 0.2736301190468968,
+        "positive_rate_std": 0.018376623170732645
+      },
+      {
+        "bin_left": 0.6000000000000001,
+        "bin_right": 0.7000000000000001,
+        "count_mean": 246.1,
+        "count_std": 14.54838669940951,
+        "mean_probability_mean": 0.652448200819448,
+        "mean_probability_std": 0.0014126159361071507,
+        "positive_rate_mean": 0.3702349438149312,
+        "positive_rate_std": 0.02773375366430981
+      },
+      {
+        "bin_left": 0.7000000000000001,
+        "bin_right": 0.8,
+        "count_mean": 254.4,
+        "count_std": 9.901739465591106,
+        "mean_probability_mean": 0.7484902837450187,
+        "mean_probability_std": 0.0019206105411682182,
+        "positive_rate_mean": 0.5420314030347583,
+        "positive_rate_std": 0.0347168804603646
+      },
+      {
+        "bin_left": 0.8,
+        "bin_right": 0.9,
+        "count_mean": 147.3,
+        "count_std": 17.410405573168656,
+        "mean_probability_mean": 0.8430018460156079,
+        "mean_probability_std": 0.002972256531440397,
+        "positive_rate_mean": 0.7069042649041185,
+        "positive_rate_std": 0.025864010115705445
+      },
+      {
+        "bin_left": 0.9,
+        "bin_right": 1.0,
+        "count_mean": 34.9,
+        "count_std": 6.384877968032487,
+        "mean_probability_mean": 0.9288329925232495,
+        "mean_probability_std": 0.00322902731469162,
+        "positive_rate_mean": 0.9197736954019143,
+        "positive_rate_std": 0.03963992439582467
+      }
+    ]
+  },
+  "neurotx_mood_point_model": {
+    "seed_curves": [
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 10.0,
+          "mean_probability": 0.054702648398105805,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 25.0,
+          "mean_probability": 0.16366722346497453,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 18.0,
+          "mean_probability": 0.24422088640803732,
+          "positive_rate": 0.16666666666666666
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 60.0,
+          "mean_probability": 0.3603716957895414,
+          "positive_rate": 0.21666666666666667
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 68.0,
+          "mean_probability": 0.452141110591117,
+          "positive_rate": 0.14705882352941177
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 148.0,
+          "mean_probability": 0.5563714558607835,
+          "positive_rate": 0.28378378378378377
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 167.0,
+          "mean_probability": 0.6539234297888403,
+          "positive_rate": 0.41317365269461076
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 239.0,
+          "mean_probability": 0.7485120895700049,
+          "positive_rate": 0.5271966527196653
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 160.0,
+          "mean_probability": 0.8457328418420605,
+          "positive_rate": 0.68125
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 43.0,
+          "mean_probability": 0.9313516925219837,
+          "positive_rate": 0.813953488372093
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 5.0,
+          "mean_probability": 0.07829380900321328,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 15.0,
+          "mean_probability": 0.16044106637119618,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 15.0,
+          "mean_probability": 0.24063633394662112,
+          "positive_rate": 0.13333333333333333
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 42.0,
+          "mean_probability": 0.36385487136108124,
+          "positive_rate": 0.21428571428571427
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 71.0,
+          "mean_probability": 0.45241822997548675,
+          "positive_rate": 0.1267605633802817
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 137.0,
+          "mean_probability": 0.5570323987416788,
+          "positive_rate": 0.2846715328467153
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 199.0,
+          "mean_probability": 0.6536866967842054,
+          "positive_rate": 0.3869346733668342
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 170.0,
+          "mean_probability": 0.7472913796387861,
+          "positive_rate": 0.5411764705882353
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 187.0,
+          "mean_probability": 0.8488418210927778,
+          "positive_rate": 0.6577540106951871
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 86.0,
+          "mean_probability": 0.9286122049725793,
+          "positive_rate": 0.8372093023255814
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 3.0,
+          "mean_probability": 0.08482282585442531,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 16.0,
+          "mean_probability": 0.15183023300576437,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 18.0,
+          "mean_probability": 0.2579932824372083,
+          "positive_rate": 0.3333333333333333
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 33.0,
+          "mean_probability": 0.35300078194657036,
+          "positive_rate": 0.18181818181818182
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 96.0,
+          "mean_probability": 0.45625256576856765,
+          "positive_rate": 0.20833333333333334
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 127.0,
+          "mean_probability": 0.5535218556581243,
+          "positive_rate": 0.30708661417322836
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 204.0,
+          "mean_probability": 0.6513923724118484,
+          "positive_rate": 0.4264705882352941
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 203.0,
+          "mean_probability": 0.7481725391712263,
+          "positive_rate": 0.541871921182266
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 168.0,
+          "mean_probability": 0.8470615618670129,
+          "positive_rate": 0.6785714285714286
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 62.0,
+          "mean_probability": 0.9309298554524047,
+          "positive_rate": 0.8709677419354839
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 2.0,
+          "mean_probability": 0.07025742854754981,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 26.0,
+          "mean_probability": 0.16206371321081406,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 19.0,
+          "mean_probability": 0.24775684731001293,
+          "positive_rate": 0.21052631578947367
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 59.0,
+          "mean_probability": 0.35569193489066037,
+          "positive_rate": 0.22033898305084745
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 99.0,
+          "mean_probability": 0.4548249411273261,
+          "positive_rate": 0.12121212121212122
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 127.0,
+          "mean_probability": 0.5507126159376914,
+          "positive_rate": 0.30708661417322836
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 176.0,
+          "mean_probability": 0.6506688311080784,
+          "positive_rate": 0.4318181818181818
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 174.0,
+          "mean_probability": 0.7546679366901031,
+          "positive_rate": 0.5574712643678161
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 183.0,
+          "mean_probability": 0.8482846561657658,
+          "positive_rate": 0.726775956284153
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 61.0,
+          "mean_probability": 0.9296085059031397,
+          "positive_rate": 0.8032786885245902
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 1.0,
+          "mean_probability": 0.07464354415747816,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 21.0,
+          "mean_probability": 0.1637627286027774,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 17.0,
+          "mean_probability": 0.24123640996971366,
+          "positive_rate": 0.11764705882352941
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 41.0,
+          "mean_probability": 0.3576422048990068,
+          "positive_rate": 0.24390243902439024
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 91.0,
+          "mean_probability": 0.4483455501865398,
+          "positive_rate": 0.16483516483516483
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 138.0,
+          "mean_probability": 0.5580737016045105,
+          "positive_rate": 0.2463768115942029
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 178.0,
+          "mean_probability": 0.649440935172278,
+          "positive_rate": 0.43258426966292135
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 216.0,
+          "mean_probability": 0.7487673228704118,
+          "positive_rate": 0.6018518518518519
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 172.0,
+          "mean_probability": 0.8458931930794712,
+          "positive_rate": 0.6802325581395349
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 52.0,
+          "mean_probability": 0.9306624166651893,
+          "positive_rate": 0.9038461538461539
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 5.0,
+          "mean_probability": 0.06443417775667411,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 22.0,
+          "mean_probability": 0.1595927442832038,
+          "positive_rate": 0.09090909090909091
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 17.0,
+          "mean_probability": 0.252143968743714,
+          "positive_rate": 0.23529411764705882
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 52.0,
+          "mean_probability": 0.36191494680156855,
+          "positive_rate": 0.23076923076923078
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 74.0,
+          "mean_probability": 0.4454199652066356,
+          "positive_rate": 0.14864864864864866
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 132.0,
+          "mean_probability": 0.5570151871345542,
+          "positive_rate": 0.25757575757575757
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 176.0,
+          "mean_probability": 0.6511954387090305,
+          "positive_rate": 0.32954545454545453
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 213.0,
+          "mean_probability": 0.7516756796436378,
+          "positive_rate": 0.6103286384976526
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 188.0,
+          "mean_probability": 0.8464641205005861,
+          "positive_rate": 0.675531914893617
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 62.0,
+          "mean_probability": 0.931412642554817,
+          "positive_rate": 0.8064516129032258
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 6.0,
+          "mean_probability": 0.0662414174326702,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 15.0,
+          "mean_probability": 0.1463517438536874,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 17.0,
+          "mean_probability": 0.24886701169936765,
+          "positive_rate": 0.058823529411764705
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 46.0,
+          "mean_probability": 0.36042108307636217,
+          "positive_rate": 0.2826086956521739
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 77.0,
+          "mean_probability": 0.4528133181460702,
+          "positive_rate": 0.11688311688311688
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 135.0,
+          "mean_probability": 0.5588910581549638,
+          "positive_rate": 0.2740740740740741
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 180.0,
+          "mean_probability": 0.6550618346255006,
+          "positive_rate": 0.37777777777777777
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 214.0,
+          "mean_probability": 0.7513619046185029,
+          "positive_rate": 0.5373831775700935
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 183.0,
+          "mean_probability": 0.8425369182676435,
+          "positive_rate": 0.6612021857923497
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 62.0,
+          "mean_probability": 0.9298905640266044,
+          "positive_rate": 0.8387096774193549
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 4.0,
+          "mean_probability": 0.07023699108452064,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 21.0,
+          "mean_probability": 0.14871450569468264,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 14.0,
+          "mean_probability": 0.24017238479400121,
+          "positive_rate": 0.21428571428571427
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 40.0,
+          "mean_probability": 0.36176080568347413,
+          "positive_rate": 0.2
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 97.0,
+          "mean_probability": 0.45168790472938686,
+          "positive_rate": 0.16494845360824742
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 143.0,
+          "mean_probability": 0.553939953036669,
+          "positive_rate": 0.25874125874125875
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 178.0,
+          "mean_probability": 0.6510007934324091,
+          "positive_rate": 0.38764044943820225
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 205.0,
+          "mean_probability": 0.7510720489757923,
+          "positive_rate": 0.526829268292683
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 187.0,
+          "mean_probability": 0.8457090316158004,
+          "positive_rate": 0.7165775401069518
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 50.0,
+          "mean_probability": 0.9265568177108479,
+          "positive_rate": 0.84
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 6.0,
+          "mean_probability": 0.06654379611224003,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 12.0,
+          "mean_probability": 0.1617918408033622,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 26.0,
+          "mean_probability": 0.23707523787305765,
+          "positive_rate": 0.15384615384615385
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 69.0,
+          "mean_probability": 0.3528924192219992,
+          "positive_rate": 0.21739130434782608
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 77.0,
+          "mean_probability": 0.4517669783253347,
+          "positive_rate": 0.12987012987012986
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 126.0,
+          "mean_probability": 0.5578226452436975,
+          "positive_rate": 0.30952380952380953
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 182.0,
+          "mean_probability": 0.6493486327560898,
+          "positive_rate": 0.41208791208791207
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 218.0,
+          "mean_probability": 0.7519640388290915,
+          "positive_rate": 0.5504587155963303
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 166.0,
+          "mean_probability": 0.847044265204866,
+          "positive_rate": 0.6686746987951807
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 56.0,
+          "mean_probability": 0.9273761240130985,
+          "positive_rate": 0.8571428571428571
+        }
+      ],
+      [
+        {
+          "bin_left": 0.0,
+          "bin_right": 0.1,
+          "count": 4.0,
+          "mean_probability": 0.055529557040744526,
+          "positive_rate": 0.0
+        },
+        {
+          "bin_left": 0.1,
+          "bin_right": 0.2,
+          "count": 14.0,
+          "mean_probability": 0.14519289541387742,
+          "positive_rate": 0.14285714285714285
+        },
+        {
+          "bin_left": 0.2,
+          "bin_right": 0.30000000000000004,
+          "count": 18.0,
+          "mean_probability": 0.2575510591438992,
+          "positive_rate": 0.16666666666666666
+        },
+        {
+          "bin_left": 0.30000000000000004,
+          "bin_right": 0.4,
+          "count": 36.0,
+          "mean_probability": 0.3537860224875283,
+          "positive_rate": 0.2222222222222222
+        },
+        {
+          "bin_left": 0.4,
+          "bin_right": 0.5,
+          "count": 82.0,
+          "mean_probability": 0.4551191245460832,
+          "positive_rate": 0.21951219512195122
+        },
+        {
+          "bin_left": 0.5,
+          "bin_right": 0.6000000000000001,
+          "count": 139.0,
+          "mean_probability": 0.5543470414812557,
+          "positive_rate": 0.18705035971223022
+        },
+        {
+          "bin_left": 0.6000000000000001,
+          "bin_right": 0.7000000000000001,
+          "count": 177.0,
+          "mean_probability": 0.6499578551431134,
+          "positive_rate": 0.3898305084745763
+        },
+        {
+          "bin_left": 0.7000000000000001,
+          "bin_right": 0.8,
+          "count": 236.0,
+          "mean_probability": 0.7531500034929224,
+          "positive_rate": 0.5677966101694916
+        },
+        {
+          "bin_left": 0.8,
+          "bin_right": 0.9,
+          "count": 171.0,
+          "mean_probability": 0.847536038621965,
+          "positive_rate": 0.6432748538011696
+        },
+        {
+          "bin_left": 0.9,
+          "bin_right": 1.0,
+          "count": 53.0,
+          "mean_probability": 0.9297598533544841,
+          "positive_rate": 0.8301886792452831
+        }
+      ]
+    ],
+    "aggregate_curve": [
+      {
+        "bin_left": 0.0,
+        "bin_right": 0.1,
+        "count_mean": 4.6,
+        "count_std": 2.503331114069145,
+        "mean_probability_mean": 0.06857061953876217,
+        "mean_probability_std": 0.009370227298197364,
+        "positive_rate_mean": 0.0,
+        "positive_rate_std": 0.0
+      },
+      {
+        "bin_left": 0.1,
+        "bin_right": 0.2,
+        "count_mean": 18.7,
+        "count_std": 4.900113377373131,
+        "mean_probability_mean": 0.156340869470434,
+        "mean_probability_std": 0.007462327691032317,
+        "positive_rate_mean": 0.023376623376623377,
+        "positive_rate_std": 0.05078053090429499
+      },
+      {
+        "bin_left": 0.2,
+        "bin_right": 0.30000000000000004,
+        "count_mean": 17.9,
+        "count_std": 3.212821536005731,
+        "mean_probability_mean": 0.24676534223256336,
+        "mean_probability_std": 0.007368863554830731,
+        "positive_rate_mean": 0.1790422889803695,
+        "positive_rate_std": 0.07487450828094314
+      },
+      {
+        "bin_left": 0.30000000000000004,
+        "bin_right": 0.4,
+        "count_mean": 47.8,
+        "count_std": 11.754904413808639,
+        "mean_probability_mean": 0.3581336766157792,
+        "mean_probability_std": 0.004073631020435501,
+        "positive_rate_mean": 0.22300034378372535,
+        "positive_rate_std": 0.026730350938921635
+      },
+      {
+        "bin_left": 0.4,
+        "bin_right": 0.5,
+        "count_mean": 83.2,
+        "count_std": 11.583513188052137,
+        "mean_probability_mean": 0.4520789688602548,
+        "mean_probability_std": 0.00322130173673396,
+        "positive_rate_mean": 0.15480625504224071,
+        "positive_rate_std": 0.03547846016629116
+      },
+      {
+        "bin_left": 0.5,
+        "bin_right": 0.6000000000000001,
+        "count_mean": 135.2,
+        "count_std": 7.2999238961025394,
+        "mean_probability_mean": 0.5557727912853928,
+        "mean_probability_std": 0.002555438205044513,
+        "positive_rate_mean": 0.2715970616198289,
+        "positive_rate_std": 0.037161992116605855
+      },
+      {
+        "bin_left": 0.6000000000000001,
+        "bin_right": 0.7000000000000001,
+        "count_mean": 181.7,
+        "count_std": 11.205653335110215,
+        "mean_probability_mean": 0.6515676819931395,
+        "mean_probability_std": 0.0019884735097059516,
+        "positive_rate_mean": 0.3987863468101765,
+        "positive_rate_std": 0.03156000723880713
+      },
+      {
+        "bin_left": 0.7000000000000001,
+        "bin_right": 0.8,
+        "count_mean": 208.8,
+        "count_std": 22.601868162708243,
+        "mean_probability_mean": 0.7506634943500479,
+        "mean_probability_std": 0.002389535963897588,
+        "positive_rate_mean": 0.5562364570836086,
+        "positive_rate_std": 0.029196565129941576
+      },
+      {
+        "bin_left": 0.8,
+        "bin_right": 0.9,
+        "count_mean": 176.5,
+        "count_std": 10.233387622005834,
+        "mean_probability_mean": 0.846510444825795,
+        "mean_probability_std": 0.001752543120577567,
+        "positive_rate_mean": 0.6789845147079572,
+        "positive_rate_std": 0.025526579343374475
+      },
+      {
+        "bin_left": 0.9,
+        "bin_right": 1.0,
+        "count_mean": 58.7,
+        "count_std": 11.499275339486976,
+        "mean_probability_mean": 0.929616067717515,
+        "mean_probability_std": 0.0016513004123893836,
+        "positive_rate_mean": 0.8401748201714623,
+        "positive_rate_std": 0.030888669324423468
+      }
+    ]
+  }
+}

@@ -1,0 +1,1586 @@
+{
+  "applicability_region_probe": {
+    "description": "Default NeuroTx-MOOD proxy-context conformal model summarized over progressively stricter deployment regions defined by retained-context support and calibration-derived similarity thresholds.",
+    "seed_metrics": [
+      {
+        "coverage_90": 0.6257995735607675,
+        "mean_set_size": 1.0948827292110874,
+        "n_region": 938.0,
+        "region": "all_external",
+        "seed": 42.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9051172707889126,
+        "singleton_success": 0.5309168443496801,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6273291925465838,
+        "mean_set_size": 1.101863354037267,
+        "n_region": 805.0,
+        "region": "non_fallback_context",
+        "seed": 42.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8981366459627329,
+        "singleton_success": 0.5254658385093167,
+        "support_fraction": 0.8582089552238806
+      },
+      {
+        "coverage_90": 0.6165413533834586,
+        "mean_set_size": 1.0526315789473684,
+        "n_region": 133.0,
+        "region": "fallback_context",
+        "seed": 42.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9473684210526315,
+        "singleton_success": 0.5639097744360902,
+        "support_fraction": 0.1417910447761194
+      },
+      {
+        "coverage_90": 0.8362573099415205,
+        "mean_set_size": 1.0526315789473684,
+        "n_region": 171.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 42.0,
+        "similarity_threshold": 0.5196759104728699,
+        "singleton_rate": 0.9473684210526315,
+        "singleton_success": 0.783625730994152,
+        "support_fraction": 0.18230277185501065
+      },
+      {
+        "coverage_90": 0.8873239436619719,
+        "mean_set_size": 1.0,
+        "n_region": 71.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 42.0,
+        "similarity_threshold": 0.6792452931404114,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.8873239436619719,
+        "support_fraction": 0.07569296375266525
+      },
+      {
+        "coverage_90": 0.9423076923076923,
+        "mean_set_size": 1.0,
+        "n_region": 52.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 42.0,
+        "similarity_threshold": 0.7772802770137787,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.9423076923076923,
+        "support_fraction": 0.05543710021321962
+      },
+      {
+        "coverage_90": 0.8787878787878788,
+        "mean_set_size": 1.0,
+        "n_region": 66.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 42.0,
+        "similarity_threshold": null,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.8787878787878788,
+        "support_fraction": 0.07036247334754797
+      },
+      {
+        "coverage_90": 0.94,
+        "mean_set_size": 1.0,
+        "n_region": 50.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 42.0,
+        "similarity_threshold": null,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.94,
+        "support_fraction": 0.053304904051172705
+      },
+      {
+        "coverage_90": 0.6332254584681769,
+        "mean_set_size": 1.1154261057173678,
+        "n_region": 927.0,
+        "region": "all_external",
+        "seed": 43.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8845738942826321,
+        "singleton_success": 0.517799352750809,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6345679012345679,
+        "mean_set_size": 1.1209876543209876,
+        "n_region": 810.0,
+        "region": "non_fallback_context",
+        "seed": 43.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8790123456790123,
+        "singleton_success": 0.5135802469135803,
+        "support_fraction": 0.8737864077669902
+      },
+      {
+        "coverage_90": 0.6239316239316239,
+        "mean_set_size": 1.0769230769230769,
+        "n_region": 117.0,
+        "region": "fallback_context",
+        "seed": 43.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9230769230769231,
+        "singleton_success": 0.5470085470085471,
+        "support_fraction": 0.1262135922330097
+      },
+      {
+        "coverage_90": 0.8823529411764706,
+        "mean_set_size": 1.084033613445378,
+        "n_region": 119.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 43.0,
+        "similarity_threshold": 0.5641025900840759,
+        "singleton_rate": 0.9159663865546218,
+        "singleton_success": 0.7983193277310925,
+        "support_fraction": 0.12837108953613807
+      },
+      {
+        "coverage_90": 0.9333333333333333,
+        "mean_set_size": 1.0666666666666667,
+        "n_region": 60.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 43.0,
+        "similarity_threshold": 0.7071067988872528,
+        "singleton_rate": 0.9333333333333333,
+        "singleton_success": 0.8666666666666667,
+        "support_fraction": 0.06472491909385113
+      },
+      {
+        "coverage_90": 0.9433962264150944,
+        "mean_set_size": 1.0754716981132075,
+        "n_region": 53.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 43.0,
+        "similarity_threshold": 0.7846153974533081,
+        "singleton_rate": 0.9245283018867925,
+        "singleton_success": 0.8679245283018868,
+        "support_fraction": 0.05717367853290183
+      },
+      {
+        "coverage_90": 0.9298245614035088,
+        "mean_set_size": 1.0526315789473684,
+        "n_region": 57.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 43.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9473684210526315,
+        "singleton_success": 0.8771929824561403,
+        "support_fraction": 0.061488673139158574
+      },
+      {
+        "coverage_90": 0.9411764705882353,
+        "mean_set_size": 1.0588235294117647,
+        "n_region": 51.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 43.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9411764705882353,
+        "singleton_success": 0.8823529411764706,
+        "support_fraction": 0.05501618122977346
+      },
+      {
+        "coverage_90": 0.6279569892473118,
+        "mean_set_size": 1.0903225806451613,
+        "n_region": 930.0,
+        "region": "all_external",
+        "seed": 44.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9096774193548387,
+        "singleton_success": 0.5376344086021505,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6293103448275862,
+        "mean_set_size": 1.0775862068965518,
+        "n_region": 812.0,
+        "region": "non_fallback_context",
+        "seed": 44.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9224137931034483,
+        "singleton_success": 0.5517241379310345,
+        "support_fraction": 0.8731182795698925
+      },
+      {
+        "coverage_90": 0.6186440677966102,
+        "mean_set_size": 1.1779661016949152,
+        "n_region": 118.0,
+        "region": "fallback_context",
+        "seed": 44.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8220338983050848,
+        "singleton_success": 0.4406779661016949,
+        "support_fraction": 0.12688172043010754
+      },
+      {
+        "coverage_90": 0.8832116788321168,
+        "mean_set_size": 1.145985401459854,
+        "n_region": 137.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 44.0,
+        "similarity_threshold": 0.5365853905677795,
+        "singleton_rate": 0.8540145985401459,
+        "singleton_success": 0.7372262773722628,
+        "support_fraction": 0.14731182795698924
+      },
+      {
+        "coverage_90": 0.9076923076923077,
+        "mean_set_size": 1.0769230769230769,
+        "n_region": 65.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 44.0,
+        "similarity_threshold": 0.6805317401885986,
+        "singleton_rate": 0.9230769230769231,
+        "singleton_success": 0.8307692307692308,
+        "support_fraction": 0.06989247311827956
+      },
+      {
+        "coverage_90": 0.9259259259259259,
+        "mean_set_size": 1.0555555555555556,
+        "n_region": 54.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 44.0,
+        "similarity_threshold": 0.7854818701744081,
+        "singleton_rate": 0.9444444444444444,
+        "singleton_success": 0.8703703703703703,
+        "support_fraction": 0.05806451612903226
+      },
+      {
+        "coverage_90": 0.9016393442622951,
+        "mean_set_size": 1.0819672131147542,
+        "n_region": 61.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 44.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9180327868852459,
+        "singleton_success": 0.819672131147541,
+        "support_fraction": 0.06559139784946237
+      },
+      {
+        "coverage_90": 0.9215686274509803,
+        "mean_set_size": 1.0588235294117647,
+        "n_region": 51.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 44.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9411764705882353,
+        "singleton_success": 0.8627450980392157,
+        "support_fraction": 0.054838709677419356
+      },
+      {
+        "coverage_90": 0.6576673866090713,
+        "mean_set_size": 1.0723542116630669,
+        "n_region": 926.0,
+        "region": "all_external",
+        "seed": 45.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.927645788336933,
+        "singleton_success": 0.5853131749460043,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6654088050314465,
+        "mean_set_size": 1.0842767295597484,
+        "n_region": 795.0,
+        "region": "non_fallback_context",
+        "seed": 45.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9157232704402516,
+        "singleton_success": 0.5811320754716981,
+        "support_fraction": 0.8585313174946004
+      },
+      {
+        "coverage_90": 0.6106870229007634,
+        "mean_set_size": 1.0,
+        "n_region": 131.0,
+        "region": "fallback_context",
+        "seed": 45.0,
+        "similarity_threshold": null,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.6106870229007634,
+        "support_fraction": 0.14146868250539957
+      },
+      {
+        "coverage_90": 0.8625954198473282,
+        "mean_set_size": 1.0610687022900764,
+        "n_region": 131.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 45.0,
+        "similarity_threshold": 0.5666666626930237,
+        "singleton_rate": 0.9389312977099237,
+        "singleton_success": 0.8015267175572519,
+        "support_fraction": 0.14146868250539957
+      },
+      {
+        "coverage_90": 0.9076923076923077,
+        "mean_set_size": 1.0153846153846153,
+        "n_region": 65.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 45.0,
+        "similarity_threshold": 0.7052139043807983,
+        "singleton_rate": 0.9846153846153847,
+        "singleton_success": 0.8923076923076924,
+        "support_fraction": 0.07019438444924406
+      },
+      {
+        "coverage_90": 0.9245283018867925,
+        "mean_set_size": 1.0188679245283019,
+        "n_region": 53.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 45.0,
+        "similarity_threshold": 0.8017391324043276,
+        "singleton_rate": 0.9811320754716981,
+        "singleton_success": 0.9056603773584906,
+        "support_fraction": 0.05723542116630669
+      },
+      {
+        "coverage_90": 0.9137931034482759,
+        "mean_set_size": 1.0172413793103448,
+        "n_region": 58.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 45.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9827586206896551,
+        "singleton_success": 0.896551724137931,
+        "support_fraction": 0.06263498920086392
+      },
+      {
+        "coverage_90": 0.9361702127659575,
+        "mean_set_size": 1.0212765957446808,
+        "n_region": 47.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 45.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9787234042553191,
+        "singleton_success": 0.9148936170212766,
+        "support_fraction": 0.05075593952483801
+      },
+      {
+        "coverage_90": 0.6817691477885652,
+        "mean_set_size": 1.1736785329018338,
+        "n_region": 927.0,
+        "region": "all_external",
+        "seed": 46.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8263214670981661,
+        "singleton_success": 0.5080906148867314,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6929716399506781,
+        "mean_set_size": 1.186189889025894,
+        "n_region": 811.0,
+        "region": "non_fallback_context",
+        "seed": 46.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.813810110974106,
+        "singleton_success": 0.5067817509247842,
+        "support_fraction": 0.8748651564185544
+      },
+      {
+        "coverage_90": 0.603448275862069,
+        "mean_set_size": 1.0862068965517242,
+        "n_region": 116.0,
+        "region": "fallback_context",
+        "seed": 46.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9137931034482759,
+        "singleton_success": 0.5172413793103449,
+        "support_fraction": 0.12513484358144553
+      },
+      {
+        "coverage_90": 0.8648648648648649,
+        "mean_set_size": 1.1283783783783783,
+        "n_region": 148.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 46.0,
+        "similarity_threshold": 0.5373134613037109,
+        "singleton_rate": 0.8716216216216216,
+        "singleton_success": 0.7364864864864865,
+        "support_fraction": 0.15965480043149946
+      },
+      {
+        "coverage_90": 0.890625,
+        "mean_set_size": 1.078125,
+        "n_region": 64.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 46.0,
+        "similarity_threshold": 0.6935483813285828,
+        "singleton_rate": 0.921875,
+        "singleton_success": 0.8125,
+        "support_fraction": 0.06903991370010787
+      },
+      {
+        "coverage_90": 0.9038461538461539,
+        "mean_set_size": 1.0576923076923077,
+        "n_region": 52.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 46.0,
+        "similarity_threshold": 0.7814545631408691,
+        "singleton_rate": 0.9423076923076923,
+        "singleton_success": 0.8461538461538461,
+        "support_fraction": 0.05609492988133765
+      },
+      {
+        "coverage_90": 0.8813559322033898,
+        "mean_set_size": 1.0677966101694916,
+        "n_region": 59.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 46.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9322033898305084,
+        "singleton_success": 0.8135593220338984,
+        "support_fraction": 0.06364617044228695
+      },
+      {
+        "coverage_90": 0.8958333333333334,
+        "mean_set_size": 1.0416666666666667,
+        "n_region": 48.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 46.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9583333333333334,
+        "singleton_success": 0.8541666666666666,
+        "support_fraction": 0.05177993527508091
+      },
+      {
+        "coverage_90": 0.6397449521785334,
+        "mean_set_size": 1.1190223166843782,
+        "n_region": 941.0,
+        "region": "all_external",
+        "seed": 47.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8809776833156217,
+        "singleton_success": 0.5207226354941552,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6511056511056511,
+        "mean_set_size": 1.1314496314496314,
+        "n_region": 814.0,
+        "region": "non_fallback_context",
+        "seed": 47.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8685503685503686,
+        "singleton_success": 0.5196560196560197,
+        "support_fraction": 0.8650371944739639
+      },
+      {
+        "coverage_90": 0.5669291338582677,
+        "mean_set_size": 1.0393700787401574,
+        "n_region": 127.0,
+        "region": "fallback_context",
+        "seed": 47.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9606299212598425,
+        "singleton_success": 0.5275590551181102,
+        "support_fraction": 0.13496280552603612
+      },
+      {
+        "coverage_90": 0.8174603174603174,
+        "mean_set_size": 1.126984126984127,
+        "n_region": 126.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 47.0,
+        "similarity_threshold": 0.5638694763183594,
+        "singleton_rate": 0.873015873015873,
+        "singleton_success": 0.6904761904761905,
+        "support_fraction": 0.1339001062699256
+      },
+      {
+        "coverage_90": 0.9215686274509803,
+        "mean_set_size": 1.0980392156862746,
+        "n_region": 51.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 47.0,
+        "similarity_threshold": 0.707317054271698,
+        "singleton_rate": 0.9019607843137255,
+        "singleton_success": 0.8235294117647058,
+        "support_fraction": 0.05419766206163656
+      },
+      {
+        "coverage_90": 0.9512195121951219,
+        "mean_set_size": 1.0731707317073171,
+        "n_region": 41.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 47.0,
+        "similarity_threshold": 0.789898157119751,
+        "singleton_rate": 0.926829268292683,
+        "singleton_success": 0.8780487804878049,
+        "support_fraction": 0.04357066950053135
+      },
+      {
+        "coverage_90": 0.9183673469387755,
+        "mean_set_size": 1.1020408163265305,
+        "n_region": 49.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 47.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.8979591836734694,
+        "singleton_success": 0.8163265306122449,
+        "support_fraction": 0.052072263549415514
+      },
+      {
+        "coverage_90": 0.9487179487179487,
+        "mean_set_size": 1.0769230769230769,
+        "n_region": 39.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 47.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9230769230769231,
+        "singleton_success": 0.8717948717948718,
+        "support_fraction": 0.04144527098831031
+      },
+      {
+        "coverage_90": 0.6192513368983957,
+        "mean_set_size": 1.0919786096256685,
+        "n_region": 935.0,
+        "region": "all_external",
+        "seed": 48.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9080213903743316,
+        "singleton_success": 0.5272727272727272,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6323529411764706,
+        "mean_set_size": 1.0955882352941178,
+        "n_region": 816.0,
+        "region": "non_fallback_context",
+        "seed": 48.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9044117647058824,
+        "singleton_success": 0.5367647058823529,
+        "support_fraction": 0.8727272727272727
+      },
+      {
+        "coverage_90": 0.5294117647058824,
+        "mean_set_size": 1.0672268907563025,
+        "n_region": 119.0,
+        "region": "fallback_context",
+        "seed": 48.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9327731092436975,
+        "singleton_success": 0.46218487394957986,
+        "support_fraction": 0.12727272727272726
+      },
+      {
+        "coverage_90": 0.84375,
+        "mean_set_size": 1.10625,
+        "n_region": 160.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 48.0,
+        "similarity_threshold": 0.5165750980377197,
+        "singleton_rate": 0.89375,
+        "singleton_success": 0.7375,
+        "support_fraction": 0.1711229946524064
+      },
+      {
+        "coverage_90": 0.8947368421052632,
+        "mean_set_size": 1.0526315789473684,
+        "n_region": 57.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 48.0,
+        "similarity_threshold": 0.6879300475120544,
+        "singleton_rate": 0.9473684210526315,
+        "singleton_success": 0.8421052631578947,
+        "support_fraction": 0.06096256684491978
+      },
+      {
+        "coverage_90": 0.9111111111111111,
+        "mean_set_size": 1.0444444444444445,
+        "n_region": 45.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 48.0,
+        "similarity_threshold": 0.7918960571289064,
+        "singleton_rate": 0.9555555555555556,
+        "singleton_success": 0.8666666666666667,
+        "support_fraction": 0.0481283422459893
+      },
+      {
+        "coverage_90": 0.8928571428571429,
+        "mean_set_size": 1.0535714285714286,
+        "n_region": 56.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 48.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9464285714285714,
+        "singleton_success": 0.8392857142857143,
+        "support_fraction": 0.059893048128342244
+      },
+      {
+        "coverage_90": 0.9090909090909091,
+        "mean_set_size": 1.0454545454545454,
+        "n_region": 44.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 48.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9545454545454546,
+        "singleton_success": 0.8636363636363636,
+        "support_fraction": 0.047058823529411764
+      },
+      {
+        "coverage_90": 0.711395101171459,
+        "mean_set_size": 1.2673056443024495,
+        "n_region": 939.0,
+        "region": "all_external",
+        "seed": 49.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.7326943556975506,
+        "singleton_success": 0.4440894568690096,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.7327478042659975,
+        "mean_set_size": 1.302383939774153,
+        "n_region": 797.0,
+        "region": "non_fallback_context",
+        "seed": 49.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.6976160602258469,
+        "singleton_success": 0.43036386449184444,
+        "support_fraction": 0.8487752928647497
+      },
+      {
+        "coverage_90": 0.5915492957746479,
+        "mean_set_size": 1.0704225352112675,
+        "n_region": 142.0,
+        "region": "fallback_context",
+        "seed": 49.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9295774647887324,
+        "singleton_success": 0.5211267605633803,
+        "support_fraction": 0.15122470713525027
+      },
+      {
+        "coverage_90": 0.8625954198473282,
+        "mean_set_size": 1.1374045801526718,
+        "n_region": 131.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 49.0,
+        "similarity_threshold": 0.5594117641448975,
+        "singleton_rate": 0.8625954198473282,
+        "singleton_success": 0.7251908396946565,
+        "support_fraction": 0.1395101171458999
+      },
+      {
+        "coverage_90": 0.9285714285714286,
+        "mean_set_size": 1.0535714285714286,
+        "n_region": 56.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 49.0,
+        "similarity_threshold": 0.7013766169548035,
+        "singleton_rate": 0.9464285714285714,
+        "singleton_success": 0.875,
+        "support_fraction": 0.059637912673056445
+      },
+      {
+        "coverage_90": 0.9555555555555556,
+        "mean_set_size": 1.0444444444444445,
+        "n_region": 45.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 49.0,
+        "similarity_threshold": 0.7903226017951965,
+        "singleton_rate": 0.9555555555555556,
+        "singleton_success": 0.9111111111111111,
+        "support_fraction": 0.04792332268370607
+      },
+      {
+        "coverage_90": 0.92,
+        "mean_set_size": 1.04,
+        "n_region": 50.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 49.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.96,
+        "singleton_success": 0.88,
+        "support_fraction": 0.05324813631522897
+      },
+      {
+        "coverage_90": 0.9487179487179487,
+        "mean_set_size": 1.0256410256410255,
+        "n_region": 39.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 49.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9743589743589743,
+        "singleton_success": 0.9230769230769231,
+        "support_fraction": 0.04153354632587859
+      },
+      {
+        "coverage_90": 0.6289978678038379,
+        "mean_set_size": 1.0820895522388059,
+        "n_region": 938.0,
+        "region": "all_external",
+        "seed": 50.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.917910447761194,
+        "singleton_success": 0.5469083155650319,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.6373762376237624,
+        "mean_set_size": 1.0829207920792079,
+        "n_region": 808.0,
+        "region": "non_fallback_context",
+        "seed": 50.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9170792079207921,
+        "singleton_success": 0.5544554455445545,
+        "support_fraction": 0.8614072494669509
+      },
+      {
+        "coverage_90": 0.5769230769230769,
+        "mean_set_size": 1.0769230769230769,
+        "n_region": 130.0,
+        "region": "fallback_context",
+        "seed": 50.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9230769230769231,
+        "singleton_success": 0.5,
+        "support_fraction": 0.13859275053304904
+      },
+      {
+        "coverage_90": 0.8290598290598291,
+        "mean_set_size": 1.0683760683760684,
+        "n_region": 117.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 50.0,
+        "similarity_threshold": 0.5555555820465088,
+        "singleton_rate": 0.9316239316239316,
+        "singleton_success": 0.7606837606837606,
+        "support_fraction": 0.12473347547974413
+      },
+      {
+        "coverage_90": 0.8823529411764706,
+        "mean_set_size": 1.0196078431372548,
+        "n_region": 51.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 50.0,
+        "similarity_threshold": 0.6902789920568466,
+        "singleton_rate": 0.9803921568627451,
+        "singleton_success": 0.8627450980392157,
+        "support_fraction": 0.054371002132196165
+      },
+      {
+        "coverage_90": 0.9047619047619048,
+        "mean_set_size": 1.0238095238095237,
+        "n_region": 42.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 50.0,
+        "similarity_threshold": 0.7906976938247681,
+        "singleton_rate": 0.9761904761904762,
+        "singleton_success": 0.8809523809523809,
+        "support_fraction": 0.04477611940298507
+      },
+      {
+        "coverage_90": 0.8775510204081632,
+        "mean_set_size": 1.0,
+        "n_region": 49.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 50.0,
+        "similarity_threshold": null,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.8775510204081632,
+        "support_fraction": 0.05223880597014925
+      },
+      {
+        "coverage_90": 0.9024390243902439,
+        "mean_set_size": 1.0,
+        "n_region": 41.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 50.0,
+        "similarity_threshold": null,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.9024390243902439,
+        "support_fraction": 0.04371002132196162
+      },
+      {
+        "coverage_90": 0.5731182795698925,
+        "mean_set_size": 1.0440860215053764,
+        "n_region": 930.0,
+        "region": "all_external",
+        "seed": 51.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9559139784946237,
+        "singleton_success": 0.5290322580645161,
+        "support_fraction": 1.0
+      },
+      {
+        "coverage_90": 0.5843672456575683,
+        "mean_set_size": 1.0508684863523574,
+        "n_region": 806.0,
+        "region": "non_fallback_context",
+        "seed": 51.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9491315136476427,
+        "singleton_success": 0.533498759305211,
+        "support_fraction": 0.8666666666666667
+      },
+      {
+        "coverage_90": 0.5,
+        "mean_set_size": 1.0,
+        "n_region": 124.0,
+        "region": "fallback_context",
+        "seed": 51.0,
+        "similarity_threshold": null,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.5,
+        "support_fraction": 0.13333333333333333
+      },
+      {
+        "coverage_90": 0.7983193277310925,
+        "mean_set_size": 1.0336134453781514,
+        "n_region": 119.0,
+        "region": "sim_ge_cal_q50",
+        "seed": 51.0,
+        "similarity_threshold": 0.5588235259056091,
+        "singleton_rate": 0.9663865546218487,
+        "singleton_success": 0.7647058823529411,
+        "support_fraction": 0.12795698924731183
+      },
+      {
+        "coverage_90": 0.9347826086956522,
+        "mean_set_size": 1.0217391304347827,
+        "n_region": 46.0,
+        "region": "sim_ge_cal_q75",
+        "seed": 51.0,
+        "similarity_threshold": 0.699999988079071,
+        "singleton_rate": 0.9782608695652174,
+        "singleton_success": 0.9130434782608695,
+        "support_fraction": 0.04946236559139785
+      },
+      {
+        "coverage_90": 0.9487179487179487,
+        "mean_set_size": 1.0256410256410255,
+        "n_region": 39.0,
+        "region": "sim_ge_cal_q90",
+        "seed": 51.0,
+        "similarity_threshold": 0.7848978042602539,
+        "singleton_rate": 0.9743589743589743,
+        "singleton_success": 0.9230769230769231,
+        "support_fraction": 0.041935483870967745
+      },
+      {
+        "coverage_90": 0.926829268292683,
+        "mean_set_size": 1.024390243902439,
+        "n_region": 41.0,
+        "region": "non_fallback_and_sim_ge_cal_q75",
+        "seed": 51.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.975609756097561,
+        "singleton_success": 0.9024390243902439,
+        "support_fraction": 0.04408602150537634
+      },
+      {
+        "coverage_90": 0.9428571428571428,
+        "mean_set_size": 1.0285714285714285,
+        "n_region": 35.0,
+        "region": "non_fallback_and_sim_ge_cal_q90",
+        "seed": 51.0,
+        "similarity_threshold": null,
+        "singleton_rate": 0.9714285714285714,
+        "singleton_success": 0.9142857142857143,
+        "support_fraction": 0.03763440860215054
+      }
+    ],
+    "summary_by_region": {
+      "all_external": {
+        "coverage_90": {
+          "mean": 0.6398926093296011,
+          "std": 0.037373947466055345
+        },
+        "mean_set_size": {
+          "mean": 1.1151146304495199,
+          "std": 0.06336019247263237
+        },
+        "n_region": {
+          "mean": 933.1,
+          "std": 5.70477382938574
+        },
+        "similarity_threshold": {
+          "mean": null,
+          "std": null
+        },
+        "singleton_rate": {
+          "mean": 0.8848853695504804,
+          "std": 0.06336019247263236
+        },
+        "singleton_success": {
+          "mean": 0.5247779788800816,
+          "std": 0.03533303555520868
+        },
+        "support_fraction": {
+          "mean": 1.0,
+          "std": 0.0
+        }
+      },
+      "fallback_context": {
+        "coverage_90": {
+          "mean": 0.5838065615136399,
+          "std": 0.04133616758354943
+        },
+        "mean_set_size": {
+          "mean": 1.0647670235747888,
+          "std": 0.05032017816350337
+        },
+        "n_region": {
+          "mean": 125.7,
+          "std": 8.459708426811568
+        },
+        "similarity_threshold": {
+          "mean": null,
+          "std": null
+        },
+        "singleton_rate": {
+          "mean": 0.9352329764252112,
+          "std": 0.05032017816350336
+        },
+        "singleton_success": {
+          "mean": 0.519039537938851,
+          "std": 0.048731730371700185
+        },
+        "support_fraction": {
+          "mean": 0.13468762073264778,
+          "std": 0.008602673700989081
+        }
+      },
+      "non_fallback_and_sim_ge_cal_q75": {
+        "coverage_90": {
+          "mean": 0.9041005598602114,
+          "std": 0.020341520803725196
+        },
+        "mean_set_size": {
+          "mean": 1.0439639270342358,
+          "std": 0.03420720195443361
+        },
+        "n_region": {
+          "mean": 54.6,
+          "std": 7.290785661062569
+        },
+        "similarity_threshold": {
+          "mean": null,
+          "std": null
+        },
+        "singleton_rate": {
+          "mean": 0.9560360729657642,
+          "std": 0.03420720195443361
+        },
+        "singleton_success": {
+          "mean": 0.8601366328259757,
+          "std": 0.03433990411712696
+        },
+        "support_fraction": {
+          "mean": 0.05852619794478321,
+          "std": 0.007897372875097789
+        }
+      },
+      "non_fallback_and_sim_ge_cal_q90": {
+        "coverage_90": {
+          "mean": 0.9286571617912699,
+          "std": 0.01985007366367742
+        },
+        "mean_set_size": {
+          "mean": 1.0357180397824952,
+          "std": 0.025404506152773808
+        },
+        "n_region": {
+          "mean": 44.5,
+          "std": 5.7397251192408545
+        },
+        "similarity_threshold": {
+          "mean": null,
+          "std": null
+        },
+        "singleton_rate": {
+          "mean": 0.9642819602175047,
+          "std": 0.025404506152773794
+        },
+        "singleton_success": {
+          "mean": 0.8929391220087746,
+          "std": 0.029783886127236908
+        },
+        "support_fraction": {
+          "mean": 0.047707774052599725,
+          "std": 0.006295330016664532
+        }
+      },
+      "non_fallback_context": {
+        "coverage_90": {
+          "mean": 0.6487537763420312,
+          "std": 0.040655049531909904
+        },
+        "mean_set_size": {
+          "mean": 1.1234114918789915,
+          "std": 0.07288855844387665
+        },
+        "n_region": {
+          "mean": 807.4,
+          "std": 6.899275324264136
+        },
+        "similarity_threshold": {
+          "mean": null,
+          "std": null
+        },
+        "singleton_rate": {
+          "mean": 0.8765885081210083,
+          "std": 0.07288855844387669
+        },
+        "singleton_success": {
+          "mean": 0.5253422844630397,
+          "std": 0.039984951308250354
+        },
+        "support_fraction": {
+          "mean": 0.8653123792673523,
+          "std": 0.008602673700989072
+        }
+      },
+      "sim_ge_cal_q50": {
+        "coverage_90": {
+          "mean": 0.8480467108760867,
+          "std": 0.027980084294821912
+        },
+        "mean_set_size": {
+          "mean": 1.0944725895412073,
+          "std": 0.039724553711818385
+        },
+        "n_region": {
+          "mean": 135.9,
+          "std": 18.363308827962108
+        },
+        "similarity_threshold": {
+          "mean": 0.5478579461574554,
+          "std": 0.01885062336680723
+        },
+        "singleton_rate": {
+          "mean": 0.9055274104587927,
+          "std": 0.039724553711818406
+        },
+        "singleton_success": {
+          "mean": 0.7535741213348794,
+          "std": 0.03493442030273913
+        },
+        "support_fraction": {
+          "mean": 0.1456332855080325,
+          "std": 0.01953213423281819
+        }
+      },
+      "sim_ge_cal_q75": {
+        "coverage_90": {
+          "mean": 0.9088679340379716,
+          "std": 0.019782445639158732
+        },
+        "mean_set_size": {
+          "mean": 1.0482688555751467,
+          "std": 0.032509328945805174
+        },
+        "n_region": {
+          "mean": 58.6,
+          "std": 7.82020175926143
+        },
+        "similarity_threshold": {
+          "mean": 0.6952548816800117,
+          "std": 0.010538502934739553
+        },
+        "singleton_rate": {
+          "mean": 0.9517311444248531,
+          "std": 0.032509328945805153
+        },
+        "singleton_success": {
+          "mean": 0.8605990784628247,
+          "std": 0.032725117444564196
+        },
+        "support_fraction": {
+          "mean": 0.06281761634173547,
+          "std": 0.008499431453752706
+        }
+      },
+      "sim_ge_cal_q90": {
+        "coverage_90": {
+          "mean": 0.9311370332723301,
+          "std": 0.019709101818385408
+        },
+        "mean_set_size": {
+          "mean": 1.0419097655936127,
+          "std": 0.02456610644640804
+        },
+        "n_region": {
+          "mean": 47.6,
+          "std": 5.777350411544878
+        },
+        "similarity_threshold": {
+          "mean": 0.7878283554315567,
+          "std": 0.006709021857192566
+        },
+        "singleton_rate": {
+          "mean": 0.9580902344063873,
+          "std": 0.024566106446408005
+        },
+        "singleton_success": {
+          "mean": 0.8892272676787174,
+          "std": 0.0299618318562514
+        },
+        "support_fraction": {
+          "mean": 0.051033958362697765,
+          "std": 0.006380058033126974
+        }
+      }
+    }
+  },
+  "data_dir": "data",
+  "generated_from": "applicability_region_probes.py",
+  "local_similarity_conformal_baseline": {
+    "description": "Calibration-only comparison for a fixed descriptor-plus-fingerprint RF point predictor: global split conformal, default proxy-context conformal, and a local similarity-aware conformal baseline using the 75 nearest calibration molecules per external sample.",
+    "seed_metrics": [
+      {
+        "auprc": 0.667656176093383,
+        "auroc": 0.7333759028674283,
+        "brier_score": 0.2531110632626436,
+        "coverage_90": 0.6012793176972282,
+        "mean_set_size": 1.0511727078891258,
+        "scheme": "global_full_rf",
+        "seed": 42.0,
+        "singleton_rate": 0.9488272921108742,
+        "singleton_success": 0.5501066098081023
+      },
+      {
+        "auprc": 0.667656176093383,
+        "auroc": 0.7333759028674283,
+        "brier_score": 0.2531110632626436,
+        "coverage_90": 0.6257995735607675,
+        "external_fallback_fraction": 0.1417910447761194,
+        "mean_set_size": 1.0948827292110874,
+        "scheme": "proxy_basic",
+        "seed": 42.0,
+        "singleton_rate": 0.9051172707889126,
+        "singleton_success": 0.5309168443496801
+      },
+      {
+        "auprc": 0.667656176093383,
+        "auroc": 0.7333759028674283,
+        "brier_score": 0.2531110632626436,
+        "coverage_90": 0.6353944562899787,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.1332622601279319,
+        "scheme": "local_similarity_knn75",
+        "seed": 42.0,
+        "singleton_rate": 0.8667377398720683,
+        "singleton_success": 0.502132196162047
+      },
+      {
+        "auprc": 0.7068714114722958,
+        "auroc": 0.7488625276745844,
+        "brier_score": 0.25377838836959077,
+        "coverage_90": 0.5943905070118662,
+        "mean_set_size": 1.0474649406688241,
+        "scheme": "global_full_rf",
+        "seed": 43.0,
+        "singleton_rate": 0.9525350593311759,
+        "singleton_success": 0.5469255663430421
+      },
+      {
+        "auprc": 0.7068714114722958,
+        "auroc": 0.7488625276745844,
+        "brier_score": 0.25377838836959077,
+        "coverage_90": 0.6332254584681769,
+        "external_fallback_fraction": 0.1262135922330097,
+        "mean_set_size": 1.1154261057173678,
+        "scheme": "proxy_basic",
+        "seed": 43.0,
+        "singleton_rate": 0.8845738942826321,
+        "singleton_success": 0.517799352750809
+      },
+      {
+        "auprc": 0.7068714114722958,
+        "auroc": 0.7488625276745844,
+        "brier_score": 0.25377838836959077,
+        "coverage_90": 0.6494066882416397,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.1553398058252426,
+        "scheme": "local_similarity_knn75",
+        "seed": 43.0,
+        "singleton_rate": 0.8446601941747572,
+        "singleton_success": 0.49406688241639696
+      },
+      {
+        "auprc": 0.6896155014423113,
+        "auroc": 0.7255877873936782,
+        "brier_score": 0.2514382442730095,
+        "coverage_90": 0.6537634408602151,
+        "mean_set_size": 1.156989247311828,
+        "scheme": "global_full_rf",
+        "seed": 44.0,
+        "singleton_rate": 0.843010752688172,
+        "singleton_success": 0.4967741935483871
+      },
+      {
+        "auprc": 0.6896155014423113,
+        "auroc": 0.7255877873936782,
+        "brier_score": 0.2514382442730095,
+        "coverage_90": 0.6279569892473118,
+        "external_fallback_fraction": 0.12688172043010754,
+        "mean_set_size": 1.0903225806451613,
+        "scheme": "proxy_basic",
+        "seed": 44.0,
+        "singleton_rate": 0.9096774193548387,
+        "singleton_success": 0.5376344086021505
+      },
+      {
+        "auprc": 0.6896155014423113,
+        "auroc": 0.7255877873936782,
+        "brier_score": 0.2514382442730095,
+        "coverage_90": 0.6967741935483871,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.2301075268817205,
+        "scheme": "local_similarity_knn75",
+        "seed": 44.0,
+        "singleton_rate": 0.7698924731182796,
+        "singleton_success": 0.4666666666666667
+      },
+      {
+        "auprc": 0.7220938809894837,
+        "auroc": 0.7672898777547481,
+        "brier_score": 0.23708642246811892,
+        "coverage_90": 0.6155507559395248,
+        "mean_set_size": 1.0,
+        "scheme": "global_full_rf",
+        "seed": 45.0,
+        "singleton_rate": 1.0,
+        "singleton_success": 0.6155507559395248
+      },
+      {
+        "auprc": 0.7220938809894837,
+        "auroc": 0.7672898777547481,
+        "brier_score": 0.23708642246811892,
+        "coverage_90": 0.6576673866090713,
+        "external_fallback_fraction": 0.14146868250539957,
+        "mean_set_size": 1.0723542116630669,
+        "scheme": "proxy_basic",
+        "seed": 45.0,
+        "singleton_rate": 0.927645788336933,
+        "singleton_success": 0.5853131749460043
+      },
+      {
+        "auprc": 0.7220938809894837,
+        "auroc": 0.7672898777547481,
+        "brier_score": 0.23708642246811892,
+        "coverage_90": 0.6997840172786177,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.187904967602592,
+        "scheme": "local_similarity_knn75",
+        "seed": 45.0,
+        "singleton_rate": 0.8120950323974082,
+        "singleton_success": 0.5118790496760259
+      },
+      {
+        "auprc": 0.7239562145422033,
+        "auroc": 0.756979517396184,
+        "brier_score": 0.2406899386581377,
+        "coverage_90": 0.6364617044228694,
+        "mean_set_size": 1.087378640776699,
+        "scheme": "global_full_rf",
+        "seed": 46.0,
+        "singleton_rate": 0.912621359223301,
+        "singleton_success": 0.5490830636461704
+      },
+      {
+        "auprc": 0.7239562145422033,
+        "auroc": 0.756979517396184,
+        "brier_score": 0.2406899386581377,
+        "coverage_90": 0.6817691477885652,
+        "external_fallback_fraction": 0.12513484358144553,
+        "mean_set_size": 1.1736785329018338,
+        "scheme": "proxy_basic",
+        "seed": 46.0,
+        "singleton_rate": 0.8263214670981661,
+        "singleton_success": 0.5080906148867314
+      },
+      {
+        "auprc": 0.7239562145422033,
+        "auroc": 0.756979517396184,
+        "brier_score": 0.2406899386581377,
+        "coverage_90": 0.7249190938511327,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.2772384034519957,
+        "scheme": "local_similarity_knn75",
+        "seed": 46.0,
+        "singleton_rate": 0.7227615965480043,
+        "singleton_success": 0.447680690399137
+      },
+      {
+        "auprc": 0.7021863943936049,
+        "auroc": 0.7491733617532929,
+        "brier_score": 0.25076669340390934,
+        "coverage_90": 0.594048884165781,
+        "mean_set_size": 1.0393198724760893,
+        "scheme": "global_full_rf",
+        "seed": 47.0,
+        "singleton_rate": 0.9606801275239107,
+        "singleton_success": 0.5547290116896918
+      },
+      {
+        "auprc": 0.7021863943936049,
+        "auroc": 0.7491733617532929,
+        "brier_score": 0.25076669340390934,
+        "coverage_90": 0.6397449521785334,
+        "external_fallback_fraction": 0.13496280552603612,
+        "mean_set_size": 1.1190223166843782,
+        "scheme": "proxy_basic",
+        "seed": 47.0,
+        "singleton_rate": 0.8809776833156217,
+        "singleton_success": 0.5207226354941552
+      },
+      {
+        "auprc": 0.7021863943936049,
+        "auroc": 0.7491733617532929,
+        "brier_score": 0.25076669340390934,
+        "coverage_90": 0.6641870350690755,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.1753453772582358,
+        "scheme": "local_similarity_knn75",
+        "seed": 47.0,
+        "singleton_rate": 0.824654622741764,
+        "singleton_success": 0.48884165781083955
+      },
+      {
+        "auprc": 0.6976246002821064,
+        "auroc": 0.7476725767007559,
+        "brier_score": 0.25539354871541103,
+        "coverage_90": 0.5946524064171123,
+        "mean_set_size": 1.0588235294117647,
+        "scheme": "global_full_rf",
+        "seed": 48.0,
+        "singleton_rate": 0.9411764705882353,
+        "singleton_success": 0.5358288770053476
+      },
+      {
+        "auprc": 0.6976246002821064,
+        "auroc": 0.7476725767007559,
+        "brier_score": 0.25539354871541103,
+        "coverage_90": 0.6192513368983957,
+        "external_fallback_fraction": 0.12727272727272726,
+        "mean_set_size": 1.0919786096256685,
+        "scheme": "proxy_basic",
+        "seed": 48.0,
+        "singleton_rate": 0.9080213903743316,
+        "singleton_success": 0.5272727272727272
+      },
+      {
+        "auprc": 0.6976246002821064,
+        "auroc": 0.7476725767007559,
+        "brier_score": 0.25539354871541103,
+        "coverage_90": 0.7026737967914438,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.2481283422459892,
+        "scheme": "local_similarity_knn75",
+        "seed": 48.0,
+        "singleton_rate": 0.7518716577540107,
+        "singleton_success": 0.45454545454545453
+      },
+      {
+        "auprc": 0.7019818662179971,
+        "auroc": 0.7534799746409769,
+        "brier_score": 0.2506490924670844,
+        "coverage_90": 0.6325878594249201,
+        "mean_set_size": 1.1182108626198084,
+        "scheme": "global_full_rf",
+        "seed": 49.0,
+        "singleton_rate": 0.8817891373801917,
+        "singleton_success": 0.5143769968051118
+      },
+      {
+        "auprc": 0.7019818662179971,
+        "auroc": 0.7534799746409769,
+        "brier_score": 0.2506490924670844,
+        "coverage_90": 0.711395101171459,
+        "external_fallback_fraction": 0.15122470713525027,
+        "mean_set_size": 1.2673056443024495,
+        "scheme": "proxy_basic",
+        "seed": 49.0,
+        "singleton_rate": 0.7326943556975506,
+        "singleton_success": 0.4440894568690096
+      },
+      {
+        "auprc": 0.7019818662179971,
+        "auroc": 0.7534799746409769,
+        "brier_score": 0.2506490924670844,
+        "coverage_90": 0.7145899893503728,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.2864749733759318,
+        "scheme": "local_similarity_knn75",
+        "seed": 49.0,
+        "singleton_rate": 0.7135250266240681,
+        "singleton_success": 0.4281150159744409
+      },
+      {
+        "auprc": 0.6935145557793698,
+        "auroc": 0.7389277710422867,
+        "brier_score": 0.2492503213772111,
+        "coverage_90": 0.6247334754797441,
+        "mean_set_size": 1.0778251599147122,
+        "scheme": "global_full_rf",
+        "seed": 50.0,
+        "singleton_rate": 0.9221748400852878,
+        "singleton_success": 0.5469083155650319
+      },
+      {
+        "auprc": 0.6935145557793698,
+        "auroc": 0.7389277710422867,
+        "brier_score": 0.2492503213772111,
+        "coverage_90": 0.6289978678038379,
+        "external_fallback_fraction": 0.13859275053304904,
+        "mean_set_size": 1.0820895522388059,
+        "scheme": "proxy_basic",
+        "seed": 50.0,
+        "singleton_rate": 0.917910447761194,
+        "singleton_success": 0.5469083155650319
+      },
+      {
+        "auprc": 0.6935145557793698,
+        "auroc": 0.7389277710422867,
+        "brier_score": 0.2492503213772111,
+        "coverage_90": 0.6908315565031983,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.2164179104477613,
+        "scheme": "local_similarity_knn75",
+        "seed": 50.0,
+        "singleton_rate": 0.7835820895522388,
+        "singleton_success": 0.4744136460554371
+      },
+      {
+        "auprc": 0.6788620251902218,
+        "auroc": 0.7362913343070068,
+        "brier_score": 0.26021390236675435,
+        "coverage_90": 0.5473118279569893,
+        "mean_set_size": 1.0043010752688173,
+        "scheme": "global_full_rf",
+        "seed": 51.0,
+        "singleton_rate": 0.9956989247311828,
+        "singleton_success": 0.543010752688172
+      },
+      {
+        "auprc": 0.6788620251902218,
+        "auroc": 0.7362913343070068,
+        "brier_score": 0.26021390236675435,
+        "coverage_90": 0.5731182795698925,
+        "external_fallback_fraction": 0.13333333333333333,
+        "mean_set_size": 1.0440860215053764,
+        "scheme": "proxy_basic",
+        "seed": 51.0,
+        "singleton_rate": 0.9559139784946237,
+        "singleton_success": 0.5290322580645161
+      },
+      {
+        "auprc": 0.6788620251902218,
+        "auroc": 0.7362913343070068,
+        "brier_score": 0.26021390236675435,
+        "coverage_90": 0.6548387096774193,
+        "k_neighbors": 75.0,
+        "mean_set_size": 1.1935483870967742,
+        "scheme": "local_similarity_knn75",
+        "seed": 51.0,
+        "singleton_rate": 0.8064516129032258,
+        "singleton_success": 0.4612903225806452
+      }
+    ],
+    "summary_by_scheme": {
+      "global_full_rf": {
+        "auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "coverage_90": {
+          "mean": 0.6094780179376251,
+          "std": 0.030019130380430435
+        },
+        "mean_set_size": {
+          "mean": 1.0641486036337668,
+          "std": 0.04837022335742843
+        },
+        "singleton_rate": {
+          "mean": 0.9358513963662333,
+          "std": 0.04837022335742843
+        },
+        "singleton_success": {
+          "mean": 0.5453294143038583,
+          "std": 0.030682313716902825
+        }
+      },
+      "local_similarity_knn75": {
+        "auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "coverage_90": {
+          "mean": 0.6833399536601267,
+          "std": 0.03021329670831774
+        },
+        "k_neighbors": {
+          "mean": 75.0,
+          "std": 0.0
+        },
+        "mean_set_size": {
+          "mean": 1.2103767954314175,
+          "std": 0.05066610070618421
+        },
+        "singleton_rate": {
+          "mean": 0.7896232045685825,
+          "std": 0.05066610070618423
+        },
+        "singleton_success": {
+          "mean": 0.472963158228709,
+          "std": 0.026311275508241354
+        }
+      },
+      "proxy_basic": {
+        "auprc": {
+          "mean": 0.6984362626402977,
+          "std": 0.01745467050408208
+        },
+        "auroc": {
+          "mean": 0.7457640631530942,
+          "std": 0.012340379617470122
+        },
+        "brier_score": {
+          "mean": 0.2502377615361871,
+          "std": 0.006781357029154011
+        },
+        "coverage_90": {
+          "mean": 0.6398926093296011,
+          "std": 0.037373947466055345
+        },
+        "external_fallback_fraction": {
+          "mean": 0.13468762073264778,
+          "std": 0.008602673700989081
+        },
+        "mean_set_size": {
+          "mean": 1.1151146304495199,
+          "std": 0.06336019247263237
+        },
+        "singleton_rate": {
+          "mean": 0.8848853695504804,
+          "std": 0.06336019247263236
+        },
+        "singleton_success": {
+          "mean": 0.5247779788800816,
+          "std": 0.03533303555520868
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "description": "Fixed two-tier novelty guard for the default descriptor-plus-fingerprint RF proxy-context conformal model, using calibration-derived similarity quantiles q_low = 0.05 and q_high = 0.15 with additive margins d_mid = 0.20 and d_low = 0.30.",
+  "policy": {
+    "d_low": 0.3,
+    "d_mid": 0.2,
+    "q_high": 0.15,
+    "q_low": 0.05
+  },
+  "seed_metrics": [
+    {
+      "coverage_90": 0.779317697228145,
+      "guarded_fraction_low": 0.22388059701492538,
+      "guarded_fraction_mid_or_low": 0.5213219616204691,
+      "mean_set_size": 1.3837953091684434,
+      "seed": 42.0,
+      "similarity_threshold_low": 0.2590000033378601,
+      "similarity_threshold_mid_or_low": 0.32692307233810425,
+      "success_rate": 0.39552238805970147
+    },
+    {
+      "coverage_90": 0.7842502696871629,
+      "guarded_fraction_low": 0.1930960086299892,
+      "guarded_fraction_mid_or_low": 0.47249190938511326,
+      "mean_set_size": 1.3980582524271845,
+      "seed": 43.0,
+      "similarity_threshold_low": 0.25531914830207825,
+      "similarity_threshold_mid_or_low": 0.31746917963027954,
+      "success_rate": 0.3861920172599784
+    },
+    {
+      "coverage_90": 0.7935483870967742,
+      "guarded_fraction_low": 0.19032258064516128,
+      "guarded_fraction_mid_or_low": 0.5118279569892473,
+      "mean_set_size": 1.4129032258064516,
+      "seed": 44.0,
+      "similarity_threshold_low": 0.25,
+      "similarity_threshold_mid_or_low": 0.3189413547515869,
+      "success_rate": 0.38064516129032255
+    },
+    {
+      "coverage_90": 0.8002159827213823,
+      "guarded_fraction_low": 0.2224622030237581,
+      "guarded_fraction_mid_or_low": 0.5118790496760259,
+      "mean_set_size": 1.3822894168466522,
+      "seed": 45.0,
+      "similarity_threshold_low": 0.2546084523200989,
+      "similarity_threshold_mid_or_low": 0.3207547068595886,
+      "success_rate": 0.41792656587473004
+    },
+    {
+      "coverage_90": 0.837108953613808,
+      "guarded_fraction_low": 0.16073354908306364,
+      "guarded_fraction_mid_or_low": 0.5210355987055016,
+      "mean_set_size": 1.4962243797195254,
+      "seed": 46.0,
+      "similarity_threshold_low": 0.2479591816663742,
+      "similarity_threshold_mid_or_low": 0.32692307233810425,
+      "success_rate": 0.3408845738942826
+    },
+    {
+      "coverage_90": 0.7715196599362381,
+      "guarded_fraction_low": 0.0871413390010627,
+      "guarded_fraction_mid_or_low": 0.4399574920297556,
+      "mean_set_size": 1.3804463336875665,
+      "seed": 47.0,
+      "similarity_threshold_low": 0.23076923191547394,
+      "similarity_threshold_mid_or_low": 0.30000001192092896,
+      "success_rate": 0.39107332624867164
+    },
+    {
+      "coverage_90": 0.7486631016042781,
+      "guarded_fraction_low": 0.14331550802139037,
+      "guarded_fraction_mid_or_low": 0.4320855614973262,
+      "mean_set_size": 1.3529411764705883,
+      "seed": 48.0,
+      "similarity_threshold_low": 0.244948148727417,
+      "similarity_threshold_mid_or_low": 0.30292731523513794,
+      "success_rate": 0.39572192513368987
+    },
+    {
+      "coverage_90": 0.8306709265175719,
+      "guarded_fraction_low": 0.21405750798722045,
+      "guarded_fraction_mid_or_low": 0.503727369542066,
+      "mean_set_size": 1.490947816826411,
+      "seed": 49.0,
+      "similarity_threshold_low": 0.25581714510917664,
+      "similarity_threshold_mid_or_low": 0.3197021186351776,
+      "success_rate": 0.3397231096911608
+    },
+    {
+      "coverage_90": 0.7825159914712153,
+      "guarded_fraction_low": 0.20575692963752665,
+      "guarded_fraction_mid_or_low": 0.5287846481876333,
+      "mean_set_size": 1.3816631130063965,
+      "seed": 50.0,
+      "similarity_threshold_low": 0.2550387680530548,
+      "similarity_threshold_mid_or_low": 0.32568877935409546,
+      "success_rate": 0.40085287846481876
+    },
+    {
+      "coverage_90": 0.7408602150537634,
+      "guarded_fraction_low": 0.1978494623655914,
+      "guarded_fraction_mid_or_low": 0.4881720430107527,
+      "mean_set_size": 1.343010752688172,
+      "seed": 51.0,
+      "similarity_threshold_low": 0.25,
+      "similarity_threshold_mid_or_low": 0.31546056270599365,
+      "success_rate": 0.3978494623655914
+    }
+  ],
+  "summary": {
+    "coverage_90": {
+      "mean": 0.7868671184930339,
+      "std": 0.03084071558512409
+    },
+    "guarded_fraction_low": {
+      "mean": 0.18386156854096888,
+      "std": 0.0426081696180901
+    },
+    "guarded_fraction_mid_or_low": {
+      "mean": 0.49312835906438907,
+      "std": 0.03441972778607022
+    },
+    "mean_set_size": {
+      "mean": 1.402227977664739,
+      "std": 0.05207730647326575
+    },
+    "seed": {
+      "mean": 46.5,
+      "std": 3.0276503540974917
+    },
+    "similarity_threshold_low": {
+      "mean": 0.25034600794315337,
+      "std": 0.008083391471585143
+    },
+    "similarity_threshold_mid_or_low": {
+      "mean": 0.3174790173768997,
+      "std": 0.009338886528464648
+    },
+    "success_rate": {
+      "mean": 0.3846391408282947,
+      "std": 0.02533859100754162
+    }
+  }
+}
